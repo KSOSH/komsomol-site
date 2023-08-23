@@ -1,0 +1,46 @@
+doctype html
+html(lang="ru" prefix="og: http://ogp.me/ns#")
+	// Шаблон «Главная страница»
+	|
+	|{{@FILE assets/templates/projectsoft/tpl/head.html}}
+	body
+		.bodywrapp
+			|{{@FILE assets/templates/projectsoft/tpl/topmenu.html}}
+			.section.container
+				|{{@FILE assets/templates/projectsoft/tpl/top-header.html}}
+				|{{@FILE assets/templates/projectsoft/tpl/global-menu.html}}
+				|{{@FILE assets/templates/projectsoft/tpl/slider.html}}
+				|{{@FILE assets/templates/projectsoft/tpl/director.html}}
+				.row
+					.container-fluid.content.hyphenation.bvi-tts
+						// НЕ УДАЛЯТЬ WIDGET !!!
+						|{{widget}}
+						.h1
+						|[*content*]
+				|[[DocLister?
+				|   &parents=`2,15,157,170,264`
+				|   &display=`5`
+				|   &tvList=`imageSoc, news_date`
+				|   &tvPrefix=``
+				|   &orderBy=`news_date DESC`
+				|   &sortBy=`news_date`
+				|   &sortDir=`DESC`
+				|   &tvSortType=`TVDATETIME`
+				|   &prepare=`\ProjectSoft\PrepareDL::prepareItem`
+				|   &noneTPL=`@CODE:<span></span>`
+				|   &ownerTPL=`@FILE:projectsoft/tpl/home_news`
+				|   &tpl=`@FILE:projectsoft/tpl/news_tpl`
+				|   &showParent=`0`
+				|   &urlScheme=`full`
+				|	&noneWrapOuter=`0`
+				|]]
+				|{{@FILE assets/templates/projectsoft/tpl/univers.html}}
+				|{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
+			|{{@FILE assets/templates/projectsoft/tpl/footer.html}}
+		|{{@FILE assets/templates/projectsoft/tpl/yepnope.html}}
+		|{{@FILE assets/templates/projectsoft/tpl/yepnope-load.html}}
+		script(src="https://pos.gosuslugi.ru/bin/script.min.js")
+		link(type="text/css" rel="stylesheet" href="[~423~]?" + hash)
+		script(src="[~424~]?" + hash)
+		script
+			|Widget("https://pos.gosuslugi.ru/form", 299239)

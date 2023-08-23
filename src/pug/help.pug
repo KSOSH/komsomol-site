@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru")
+	// HELP
+	|
+	head
+		title
+			|HELP
+		meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+		meta(name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width")
+		meta(name="theme-color" content="#1d2023")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		link(rel="stylesheet" type="text/css" href="/manager/media/style/default/css/styles.min.css?v=1626516556")
+		style(rel="stylesheet" type="text/css")
+			include help.css
+	body(class="light")
+		div.container.container-body
+			.row.form-row.widgets
+				.col-sm-12
+					.card
+						.card-body
+							|[*content*]

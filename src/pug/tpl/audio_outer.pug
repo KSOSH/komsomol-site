@@ -1,0 +1,84 @@
+.audio
+	|[+wrapper+]
+|
+|<style>
+|	.audio {overflow:  hidden;}
+|	.audio--item,
+|	.audio--item audio {
+|		display:  block;
+|		width:  100%;
+|	}
+|	.audio--item audio::-webkit-media-controls-panel {
+|		background-color: #0098ff;
+|		color:  #ffffff;
+|	}
+|	.audio--item p {
+|		box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+|	}
+|	.audio--item audio::-webkit-media-controls-timeline {
+|		background-color: #9d5b00;
+|		border-radius: 25px;
+|		margin-left: 10px;
+|		margin-right: 10px;
+|	}
+|	.audio--item audio::-webkit-media-controls-current-time-display,
+|	.audio--item audio::-webkit-media-controls-time-remaining-display {
+|		color: #fff;
+|	}
+|	.audio--item audio::-webkit-media-controls-timeline,
+|	.audio--item audio::-webkit-media-controls-play-button, 
+|	.audio--item audio::-webkit-media-controls-volume-control-container {
+|		filter: invert(1);
+|	}
+|</style>
+|<script>
+|	(()=>{
+|		const aud = Array.from(document.querySelectorAll('audio[controls]'));
+|		var index = -1;
+|		aud.map((el, key) => {
+|			el.datalist = {index: key};
+|			/**
+|			 * Начало воспроизведения
+|			 **/
+|			el.addEventListener('play', () => {
+|				const played = document.querySelector('[data-play="true"]')
+|				if(played && played !== el) {
+|					/**
+|					 * Если есть проигрываемый элемент
+|					 **/
+|					played.curentTime = 0;
+|					played.pause();
+|					played.removeAttribute('data-play');
+|				}
+|				index = el.datalist.index;
+|				/**
+|				 * Начинаем проигрывание
+|				 **/
+|				el.dataset.play = 'true';
+|				el.scrollIntoView({
+|					behavior: 'smooth',
+|					block: 'nearest'
+|				});
+|			});
+|			/**
+|			 * Конец воспроизведения
+|			 **/
+|			el.addEventListener('ended', () => {
+|				try {
+|					if(index >= 0){
+|						this.curentTime = 0;
+|						var prom = aud[index].play();
+|						if (prom !== undefined){
+|							prom.then(() => {
+|								this.pause();
+|							}).catch(error => {});
+|						}
+|					}
+|					aud[index >= aud.length - 1 ? 0 : index + 1].play();
+|				}catch(e){
+|					console.log(index >= aud.length - 1 ? 0 : index + 1);
+|				}
+|			});
+|		});
+|	})();
+|</script>

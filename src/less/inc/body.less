@@ -1,0 +1,51 @@
+* {
+	&, &::before, &::after {
+		box-sizing: border-box;
+	}
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: @line-height;
+	> .bodywrapp {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		> .topmenu,
+		> .footer {
+			flex: 0 0 auto;
+			position: relative;
+			z-index: 100;
+			.clearfix();
+		}
+		> .section {
+			flex: 1 0 auto;
+			position: relative;
+			z-index: 1;
+			background-color: @white;
+			box-shadow: 0 0 10px #ccc;
+			.clearfix();
+		}
+		> .footer {
+			background-color: @bg-color;
+		}
+	}
+	&.screen {
+		&::after {
+			color: #000;
+			background-color: #fff;
+			white-space: pre;
+			content: "Пожалуйста подождите...\000A\000DГенерируется скриншот страницы...";
+			text-align: center;
+			display: flex;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			z-index: 999999999;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

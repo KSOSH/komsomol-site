@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+	<!-- Вывод аудио файлов-->
+	{{@FILE assets/templates/projectsoft/tpl/head.html}}
+	<body>
+		<div class="bodywrapp">{{@FILE assets/templates/projectsoft/tpl/topmenu.html}}
+			<div class="section container">
+				{{@FILE assets/templates/projectsoft/tpl/top-header.html}}
+				{{@FILE assets/templates/projectsoft/tpl/global-menu.html}}
+				<div class="row">
+					<div class="director">
+						<div class="column sidebar all">{{@FILE assets/templates/projectsoft/tpl/sidebar.html}}</div>
+					</div>
+				</div>
+				<div class="row">[[DLCrumbs &showCurrent=`1`]]</div>
+				<div class="row">
+					<div class="container-fluid">
+						<h1>[[alterTitle]]</h1>
+						<div class="content hyphenation bvi-tts">
+							[*content*]
+							[[multiTV?
+							   &tvName=`distfiles`
+							   &docid=`[*id*]`
+							   &display=`all`
+							   &emptyOutput=`1`
+								 &rowTpl=`@FILE: assets/templates/projectsoft/tpl/audio_item.html`
+								 &outerTpl=`@FILE: assets/templates/projectsoft/tpl/audio_outer.html`
+							]]
+							[[PageBuilder]]
+						</div>
+					</div>
+				</div>{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
+			</div>{{@FILE assets/templates/projectsoft/tpl/footer.html}}
+		</div>{{@FILE assets/templates/projectsoft/tpl/yepnope.html}}
+		{{@FILE assets/templates/projectsoft/tpl/yepnope-load.html}}
+	</body>
+</html>

@@ -1,0 +1,31 @@
+/* Buttons */
+*,
+a,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	&.btn {
+		display: inline-block;
+		padding-left: 1em;
+		padding-right: 1em;
+		background-color: @bg-color;
+		padding-top: .8em;
+		padding-bottom: .8em;
+		color: @white;
+		text-decoration: none;
+		box-shadow: 0 0 2px @bg-color;
+		transition: all .5s ease;
+		border: none;
+		appearance: none;
+		outline: none !important;
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: @white;
+			color: @bg-color;
+			text-decoration: none;
+			box-shadow: 0 0 2px @bg-color;
+		}
+	}
+}

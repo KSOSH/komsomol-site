@@ -1,0 +1,114 @@
+body {
+	.bodywrapp {
+		&::before {
+			left: 0;
+			background-position: top left;
+		}
+		&::after {
+			right: 0;
+			background-position: 100% 0;
+		}
+	}
+	&.prazdnik {
+		position: relative;
+		.bodywrapp {
+			position: relative;
+			> * {
+				position: relative;
+				z-index: 2;
+			}
+			.notification-form {
+				position: fixed;
+				z-index: 2000;
+			}
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				height: 100%;
+				z-index: 0;
+				//background-size: 55px auto;
+				background-repeat: repeat-y;
+				background-attachment: fixed;
+				width: 55px;
+			}
+			.section {
+				&.container {
+					> .row {
+						> .container-fluid {
+							> h1,
+							> .h1 {
+								padding-bottom: 26%;
+								background-position: center bottom;
+								background-repeat: no-repeat;
+								background-size: contain;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.bvi {
+			.bodywrapp {
+				&::before,
+				&::after {
+					display: none !important;
+				}
+			}
+			.section {
+				&.container {
+					> .row {
+						> .container-fluid {
+							> h1,
+							> .h1 {
+								padding-bottom: unset;
+								background-image: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.new_year {
+		.bodywrapp {
+			&::before {
+				background-image: url('@{imgpath}/left.png');
+			}
+			&::after {
+				background-image: url('@{imgpath}/right.png');
+			}
+			.section {
+				&.container {
+					> .row {
+						> .container-fluid {
+							> h1,
+							> .h1 {
+								background-image: url('@{imgpath}/top.png');
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.defender_day {
+		&::before,
+		&::after {
+			display: none;
+		}
+		.section {
+			&.container {
+				> .row {
+					> .container-fluid {
+						> h1,
+						> .h1 {
+							background-image: url('@{imgpath}/23.02.png');
+						}
+					}
+				}
+			}
+		}
+	}
+}

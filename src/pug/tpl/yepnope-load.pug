@@ -1,0 +1,29 @@
+script(type="text/javascript" src="https://vk.com/js/api/openapi.js?168")
+script(type="text/javascript")
+	|var Hyphenopoly = {
+	|	require: {
+	|		ru		: "ru"
+	|	},
+	|	paths	: {
+	|		maindir	: "assets/comon/js/Hyphenopoly/",
+	|		patterndir	: "assets/comon/js/Hyphenopoly/patterns/"
+	|	},
+	|	setup	: {
+	|		selectors	: {
+	|			".hyphenation"	: {
+	|				"minWordLength"	: 1
+	|			}
+	|		}
+	|	}
+	|};
+	|window.HTTP_CLIENT = 0;/* [!GetIP!] */;
+	|yepnope('assets/templates/projectsoft/js/appjs.min.js', undefined, function() {
+	|	yepnope('assets/templates/projectsoft/js/main.min.js?#{hash}', undefined, function() {
+	|		yepnope('assets/comon/js/Hyphenopoly/Hyphenopoly_Loader.js', undefined, function() {});
+	|		let like = document.querySelector("#vk_like");
+	|		VK.init({apiId: 51660360, onlyWidgets: true});
+	|		VK.Widgets.Group("vk_groups", {mode: 1, height: 200, width: "auto", color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 196178324);
+	|		like && VK.Widgets.Like("vk_like", {type: "button", height: 22});
+	|	})
+	|});
+|[!YandexMetrika!]

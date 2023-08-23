@@ -1,0 +1,55 @@
+body > .container.container-body {
+	padding: 0;
+}
+.red {
+	color: red;
+}
+.row.form-row.widgets {
+	margin: 0;
+}
+.card-body {
+	padding: 0;
+}
+.widgets .card {
+	margin: 0 !important;
+	box-shadow: none !important;
+
+}
+.form-row >.col, .form-row > [class*=col-] {
+	padding: 0;
+}
+.card-body h2,
+.card-body h3,
+.card-body h4,
+.card-body h5,
+.card-body h6 {
+	margin-top: 3rem;
+	margin-bottom: 0px;
+	margin-left: 9px;
+}
+.card-body h2:first-child,
+.card-body h3:first-child,
+.card-body h4:first-child,
+.card-body h5:first-child,
+.card-body h6:first-child {
+	margin-top: 0px;
+}
+hr.hr-title {
+	border-top: none;
+	border-top-style: none;
+	overflow: hidden;
+	line-height: 1 !important;
+	height: auto;
+	white-space: nowrap;
+	color: #0098ff;
+	margin-top: -10px;
+}
+
+hr.hr-title:after {
+	content:"|----------------------------------";
+	letter-spacing: 4px;
+	font-size: 1.5rem;
+}
+ol.list-decimal > li {
+	list-style: decimal;
+}
