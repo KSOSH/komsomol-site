@@ -27,8 +27,7 @@ module.exports = function(grunt) {
 			"clean:all",
 			"concat",
 			"uglify",
-			//"webfont",
-			"ttf2eot",
+			"webfont",
 			"ttf2woff",
 			"ttf2woff2",
 			"imagemin",
@@ -73,7 +72,6 @@ module.exports = function(grunt) {
 		],
 		fonts: [
 			"clean:all",
-			"ttf2eot",
 			"ttf2woff",
 			"ttf2woff2",
 			"less",
@@ -86,8 +84,7 @@ module.exports = function(grunt) {
 		],
 		glyph: [
 			"clean:all",
-			//"webfont",
-			"ttf2eot",
+			"webfont",
 			"ttf2woff",
 			"ttf2woff2",
 			"less",
@@ -190,8 +187,8 @@ module.exports = function(grunt) {
 					hashes: true,
 					relativeFontPath: '@{fontpath}',
 					destLess: 'src/less/fonts',
-					font: 'iconssite',
-					types: 'ttf,woff,woff2',
+					font: 'IconsSite',
+					types: 'ttf',
 					fontFamilyName: 'IconsSite',
 					stylesheets: ['less'],
 					syntax: 'bootstrap',
@@ -410,12 +407,6 @@ module.exports = function(grunt) {
 						dest: '<%= globalConfig.gosave %>/images/'
 					}
 				]
-			}
-		},
-		ttf2eot: {
-			default: {
-				src: 'src/fonts/*.ttf',
-				dest: '<%= globalConfig.gosave %>/fonts/'
 			}
 		},
 		ttf2woff: {

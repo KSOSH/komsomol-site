@@ -5,7 +5,7 @@
 	"main": "Gruntfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-        "inst": "bower install && npm i --legacy-peer-deps",
+        "inst": "bower install && npm install --legacy-peer-deps",
         "build": "grunt -v"
 	},
 	"repository": {
@@ -36,7 +36,6 @@
 		"grunt-lineending": "^1.0.0",
 		"grunt-replace": "^2.0.1",
 		"grunt-tinyimg": "^1.0.0",
-		"grunt-ttf2eot": "^1.0.0",
 		"grunt-ttf2woff": "^1.0.1",
 		"grunt-ttf2woff2": "^1.0.1",
 		"grunt-webfont": "^1.6.0",
