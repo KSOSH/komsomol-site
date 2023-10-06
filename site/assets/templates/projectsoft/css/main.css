@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "IconsSite";
-  src: url("/assets/templates/projectsoft/fonts/IconsSite.woff?2cd54cc1088c994b2e138fb0fd01ee96") format("woff"), url("/assets/templates/projectsoft/fonts/IconsSite.woff2?2cd54cc1088c994b2e138fb0fd01ee96") format("woff2"), url("/assets/templates/projectsoft/fonts/IconsSite.ttf?2cd54cc1088c994b2e138fb0fd01ee96") format("truetype");
+  src: url("/assets/templates/projectsoft/fonts/IconsSite.woff?02a8a5ecf58045d572ab20b1e80e89a8") format("woff"), url("/assets/templates/projectsoft/fonts/IconsSite.woff2?02a8a5ecf58045d572ab20b1e80e89a8") format("woff2"), url("/assets/templates/projectsoft/fonts/IconsSite.ttf?02a8a5ecf58045d572ab20b1e80e89a8") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -275,7 +275,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman'), url('/assets/templates/projectsoft/fonts/times.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/times.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/times.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Times New Roman'), url('/assets/templates/projectsoft/fonts/times.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/times.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/times.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -283,7 +283,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Italic'), url('/assets/templates/projectsoft/fonts/timesi.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/timesi.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/timesi.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Times New Roman Italic'), url('/assets/templates/projectsoft/fonts/timesi.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/timesi.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/timesi.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -291,7 +291,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Bold'), url('/assets/templates/projectsoft/fonts/timesbd.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbd.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/timesbd.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Times New Roman Bold'), url('/assets/templates/projectsoft/fonts/timesbd.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbd.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/timesbd.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -299,7 +299,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Bold Italic'), url('/assets/templates/projectsoft/fonts/timesbi.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbi.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/timesbi.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Times New Roman Bold Italic'), url('/assets/templates/projectsoft/fonts/timesbi.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbi.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/timesbi.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -307,7 +307,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arial.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/arial.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/arial.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arial.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/arial.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/arial.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -315,7 +315,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/ariali.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/ariali.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/ariali.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/ariali.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/ariali.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/ariali.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -323,7 +323,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbd.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbd.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/arialbd.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbd.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbd.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/arialbd.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -331,7 +331,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbi.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbi.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/arialbi.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbi.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbi.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/arialbi.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -339,7 +339,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Light'), local('OpenSans-Light'), url('/assets/templates/projectsoft/fonts/opensanslight.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslight.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslight.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('/assets/templates/projectsoft/fonts/opensanslight.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslight.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslight.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -347,7 +347,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -355,7 +355,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans'), local('OpenSans'), url('/assets/templates/projectsoft/fonts/opensans.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensans.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensans.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans'), local('OpenSans'), url('/assets/templates/projectsoft/fonts/opensans.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensans.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensans.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -363,7 +363,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensansitalic.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansitalic.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -371,7 +371,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibold.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibold.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -379,7 +379,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -387,7 +387,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/templates/projectsoft/fonts/opensansbold.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbold.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbold.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/templates/projectsoft/fonts/opensansbold.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbold.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbold.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -395,7 +395,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -403,7 +403,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabold.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabold.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -411,7 +411,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -419,7 +419,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS'), local('ComicSans-MS'), url('/assets/templates/projectsoft/fonts/comic.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/comic.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/comic.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Comic Sans MS'), local('ComicSans-MS'), url('/assets/templates/projectsoft/fonts/comic.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/comic.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/comic.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -427,7 +427,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Italic'), local('ComicSans-MS-Italic'), url('/assets/templates/projectsoft/fonts/comici.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/comici.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/comici.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Comic Sans MS Italic'), local('ComicSans-MS-Italic'), url('/assets/templates/projectsoft/fonts/comici.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/comici.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/comici.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -435,7 +435,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Bold'), local('ComicSans-MS-Bold'), url('/assets/templates/projectsoft/fonts/comicbd.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/comicbd.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/comicbd.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Comic Sans MS Bold'), local('ComicSans-MS-Bold'), url('/assets/templates/projectsoft/fonts/comicbd.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/comicbd.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/comicbd.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -443,7 +443,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Bold Italic'), local('ComicSans-MS-BoldItalic'), url('/assets/templates/projectsoft/fonts/comicz.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/comicz.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/comicz.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Comic Sans MS Bold Italic'), local('ComicSans-MS-BoldItalic'), url('/assets/templates/projectsoft/fonts/comicz.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/comicz.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/comicz.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -451,7 +451,7 @@
 
 @font-face {
   font-family: 'Ruslan Display';
-  src: local('Ruslan Display'), local('RuslanDisplay'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff2?2cd54cc1088c994b2e138fb0fd01ee96') format('woff2'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff?2cd54cc1088c994b2e138fb0fd01ee96') format('woff'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.ttf?2cd54cc1088c994b2e138fb0fd01ee96') format('truetype');
+  src: local('Ruslan Display'), local('RuslanDisplay'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff2?02a8a5ecf58045d572ab20b1e80e89a8') format('woff2'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff?02a8a5ecf58045d572ab20b1e80e89a8') format('woff'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.ttf?02a8a5ecf58045d572ab20b1e80e89a8') format('truetype');
   font-display: swap;
   font-weight: 400;
 }
