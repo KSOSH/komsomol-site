@@ -8,7 +8,7 @@ $settings['fields'] = array(
 	'type' => array(
 		'caption' => 'Тип',
 		'type' => 'dropdown',
-		'elements' => 'Сайт==home||ВКонтакте==vk||Одноклассники==ok||Telegram==telegram||Твиттер==twitter'
+		'elements' => 'Сайт==home||ВКонтакте==vk||Одноклассники==ok||RUTUBE==rutube||Telegram==telegram||Твиттер==twitter'
 	),
 	'link' => array(
 		'caption' => 'Ссылка на страницу',
