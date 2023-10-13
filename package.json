@@ -1,12 +1,12 @@
 {
 	"name": "gbou.school",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Сайт ГБОУ СОШ пос. Комсомольский",
 	"main": "Gruntfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-        "inst": "bower install && npm install --legacy-peer-deps",
-        "build": "grunt -v"
+		"inst": "bower install && npm install --legacy-peer-deps",
+		"build": "grunt -v"
 	},
 	"repository": {
 		"type": "git",
@@ -43,5 +43,8 @@
 		"load-grunt-tasks": "^5.1.0",
 		"md5": "^2.3.0",
 		"time-grunt": "git+https://github.com/ProjectSoft-STUDIONIONS/time-grunt.git"
+	},
+	"dependencies": {
+		"dotenv": "^16.3.1"
 	}
 }

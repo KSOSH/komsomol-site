@@ -1,11 +1,17 @@
 module.exports = function(grunt) {
+	require('dotenv').config();
+	const DEBUG = parseInt(process.env.DEBUG) || false;
 	var fs = require('fs'),
 		chalk = require('chalk'),
+		PACK = grunt.file.readJSON('package.json'),
 		uniqid = function () {
-			var md5 = require('md5');
-			result = md5((new Date()).getTime()).toString();
-			grunt.verbose.writeln("Generate hash: " + chalk.cyan(result) + " >>> OK");
-			return result;
+			if(DEBUG){
+				var md5 = require('md5');
+				result = md5((new Date()).getTime()).toString();
+				grunt.verbose.writeln("Generate hash: " + chalk.cyan(result) + " >>> OK");
+				return result;
+			}
+			return `v${PACK.version}`;
 		};
 	
 	String.prototype.hashCode = function() {
