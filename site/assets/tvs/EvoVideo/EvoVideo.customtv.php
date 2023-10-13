@@ -46,7 +46,7 @@ $includeOnce_evotv = <<<EOD
 </style>
 
 <script>
-	var setIdEvoVideo = function(tv){
+	const setIdEvoVideo = function(tv){
 		var el = document.getElementById(tv),
 			span = document.getElementById("block_img_" + tv),
 			div = document.getElementById("block_iframe_" + tv),

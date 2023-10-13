@@ -131,7 +131,8 @@ module.exports = function(grunt) {
 				src: [
 					'bower_components/jquery/dist/jquery.js',
 					"bower_components/fancybox/src/js/core.js",
-					"bower_components/fancybox/src/js/media.js",
+					//"bower_components/fancybox/src/js/media.js",
+					'src/js/media.js',
 					"bower_components/fancybox/src/js/guestures.js",
 					"bower_components/fancybox/src/js/slideshow.js",
 					"bower_components/fancybox/src/js/fullscreen.js",

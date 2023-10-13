@@ -26,7 +26,7 @@
 				<div class="videos--list-item">
 					<a target="_blank" href="[+EvoVideo+]" data-fancybox="video" savefrom_lm="0" target="_blank">
 						<span class="overflow">
-							<img src="[[GetEvoVideo? &url=`[+EvoVideo+]` &type=`image`]]" alt="[+text:notags:strip+]">
+							<img src="[[GetEvoVideo2? &url=`[+EvoVideo+]` &type=`image`]]" alt="[+text:notags:strip+]">
 							<span class="bvi-caption-alt">[+text:notags:strip+]</span>
 						</span>
 						<span class="text-center">[+text:notags:strip+]</span>
@@ -48,8 +48,8 @@
 						'type'    => 'text',
 					],
 					'EvoVideo' => [
-						'caption' => 'Видео',
-						'type'    => 'evovideo',
+						'caption' => 'Видео (URL на видео из строки браузера)',
+						'type'    => 'text',
 					]
 				]
 			]
