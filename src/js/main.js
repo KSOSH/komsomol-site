@@ -472,7 +472,7 @@
 											<p class="text-center">
 												<a href="mailto:` + orgEmail + `" >` + orgEmail + `</a>
 											</p>
-											<!--<p class="text-center"><button class="callme-btn btn" type="button" data-trigger="sendbot">ЗАДАТЬ ВОПРОС</button></p>-->
+											<p class="text-center"><button class="callme-btn btn" type="button" data-trigger="sendbot">ЗАДАТЬ ВОПРОС</button></p>
 										</div>`,
 					},
 					{

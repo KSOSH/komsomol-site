@@ -9,29 +9,35 @@
 	"build_systems":
 	[
 		{
-			"name": "Build Project",
+			"name": "Полная сборка",
 			"working_dir": "$project_path",
-			"shell_cmd": "grunt -v speed && echo Finish Build Project",
+			"shell_cmd": "grunt -v",
 			"file_patterns": [
-				"*.js",
-				"*.pug"
+				"*.*"
 			]
 		},
 		{
-			"name": "Build XLSX Viewer",
+			"name": "Быстрая сборка",
+			"working_dir": "$project_path",
+			"shell_cmd": "grunt -v speed",
+			"file_patterns": [
+				"*.*"
+			]
+		},
+		{
+			"name": "Сборка XLSX Viewer",
 			"working_dir": "$project_path",
 			"shell_cmd": "pug -O $file_path/options.json $file_path && lessc -x $file_path/main.less $file_path/main.min.css",
 			"file_patterns": [
-				"*.pug",
-				"*.less"
+				"*.*"
 			]
 		},
 		{
-			"name": "Build XLSX Viewer LESS",
+			"name": "Сборка XLSX Viewer LESS",
 			"working_dir": "$project_path",
 			"shell_cmd": "lessc -x $file $file_path/$file_base_name.min.css",
 			"file_patterns": [
-				"*.less"
+				"*.*"
 			]
 		}
 	]
