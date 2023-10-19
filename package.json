@@ -1,6 +1,6 @@
 {
 	"name": "gbou.school",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Сайт ГБОУ СОШ пос. Комсомольский",
 	"main": "Gruntfile.js",
 	"scripts": {
