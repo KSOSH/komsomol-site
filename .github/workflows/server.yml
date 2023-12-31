@@ -1,1 +1,27 @@
+name: Deploy to Hosting
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      Name:
+        description: Main Deploy to Hosting
+        required: true
+        default: 'Main Deploy to Hosting'
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to Hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir:  /www/komsomol.minobr63.ru/
+          local-dir: ./site/
