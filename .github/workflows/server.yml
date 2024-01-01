@@ -22,7 +22,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir:  /www/komsomol.minobr63.ru/
+          server-dir: ${{ secrets.DIRECTORY }}
           local-dir: ./site/
           state-name: .status.json
       - name: Remove Status
@@ -32,5 +32,5 @@ jobs:
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           remoteFiles: ".status.json;assets/cache/docid_*.php"
-          workingDir: /www/komsomol.minobr63.ru/
+          workingDir: ${{ secrets.DIRECTORY }}
           ignoreSSL: 1
