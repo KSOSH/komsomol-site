@@ -25,3 +25,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir:  /www/komsomol.minobr63.ru/
           local-dir: ./site/
+          state-name: ./github/.status.json
