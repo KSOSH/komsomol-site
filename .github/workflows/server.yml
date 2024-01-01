@@ -34,6 +34,7 @@ jobs:
           host: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          remoteFiles: ".status.json"
-          remoteDirectories: "/site"
-          workingDir: "/www/komsomol.minobr63.ru/"
+          remoteFiles: .status.json
+          remoteDirectories: /site
+          workingDir: /www/komsomol.minobr63.ru/
+          ignoreSSL: 1
