@@ -16355,7 +16355,7 @@ return jQuery;
 	$(document).on('click', 'a[href$=".xlsx"], a[href$=".docx"], a[href$=".pdf"]', function(e){
 		e.preventDefault();
 		let base = window.location.origin + '/',
-			_this = e.target,
+			_this = e.currentTarget,
 			reg = new RegExp("^" + base),
 			href = _this.href,
 			test = _this.href,
