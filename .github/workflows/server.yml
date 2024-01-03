@@ -1,7 +1,7 @@
 name: Deploy to Hosting
 on:
   schedule:
-    - cron: "0 1 * * 1"
+    - cron: "0 1 * * 1,4,6"
   workflow_dispatch:
     inputs:
       Name:
