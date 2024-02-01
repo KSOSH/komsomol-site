@@ -18,18 +18,6 @@ switch ($e->name) {
 	case "OnPageNotFound":
 		PluginEvolution::routeNotFound($modx, $params);
 		break;
-	case "OnManagerMenuPrerender":
-		$out = '<style id="gbou_sosh_school">';
-		if(is_file(dirname(__FILE__) . "/menu.css")){
-			$out .= file_get_contents(dirname(__FILE__) . "/menu.css");
-		}
-		$out .= "</style>";
-		$menuparams = ['logo_changed', 'main', $out, '', '', '', '', 'main', 0, 100, ''];
-		$menuparams[3] = 'javscript:;';
-		$menuparams[5] = 'return false;';
-		$params['menu']['logo_changed'] = $menuparams;
-		$modx->event->output(serialize($params['menu']));
-		break;
 	case "OnWebPagePrerender":
 		$arr = [
 			$modx->config['site_unavailable_page'],
