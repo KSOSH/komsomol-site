@@ -8794,7 +8794,6 @@ input[type="reset"].btn * {
   -ms-flex-item-align: end;
   align-self: flex-end;
   margin-top: 1em;
-  -webkit-hyphens: none !important;
   -ms-hyphens: none !important;
   hyphens: none !important;
   white-space: nowrap;

@@ -65,6 +65,33 @@
 				  &urlScheme=`full`
 				  &noneWrapOuter=`0`
 				]]
+				[[DocLister?
+				  &parents=`2`
+				  &display=`5`
+					&filters=AND(tv:filter:is:nastavnichestvo)
+				  &tvList=`imageSoc, news_date`
+				  &tvPrefix=``
+				  &orderBy=`news_date DESC`
+				  &sortBy=`news_date`
+				  &sortDir=`DESC`
+				  &tvSortType=`TVDATETIME`
+				  &prepare=`\ProjectSoft\PrepareDL::prepareItem`
+				  &noneTPL=`@CODE:<span></span>`
+				  &ownerTPL=`@CODE:<div class="row">
+				  <div class="container-fluid content news">
+				          <h3 class="news-title text-center">Заметки наставничества</h3>
+				          <div class="hyphenation">
+				              <div class="news-container">
+				                  [+dl.wrap+]
+				              </div>
+				          </div>
+				      </div>
+				  </div>`
+				  &tpl=`@FILE:projectsoft/tpl/news_tpl`
+				  &showParent=`0`
+				  &urlScheme=`full`
+				  &noneWrapOuter=`0`
+				]]
 				{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
 				{{@FILE assets/templates/projectsoft/tpl/sendbot.html}}
 			</div>{{@FILE assets/templates/projectsoft/tpl/footer.html}}
