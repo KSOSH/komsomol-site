@@ -26,7 +26,9 @@ jobs:
           local-dir: ./site/
           state-name: .status.json
           exclude: |
-            ./**/viewer/**
+            **/viewer/**
+            **/asset/templates/projectsoft/images/**
+            **/asset/templates/projectsoft/fonts/**
       - name: Remove Status
         uses: StephanThierry/ftp-delete-action@v2.1
         with:
