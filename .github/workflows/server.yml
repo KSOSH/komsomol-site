@@ -26,7 +26,8 @@ jobs:
           local-dir: ./site/
           state-name: .status.json
           exclude: |
-            site/viewer/**
+            ./**/viewer/**
+            **/viewer/**
             site/*.png
             site/*.json
       - name: Remove Status
