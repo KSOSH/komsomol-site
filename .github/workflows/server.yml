@@ -27,9 +27,6 @@ jobs:
           state-name: .status.json
           exclude: |
             ./**/viewer/**
-            **/viewer/**
-            site/*.png
-            site/*.json
       - name: Remove Status
         uses: StephanThierry/ftp-delete-action@v2.1
         with:
