@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" prefix="og: http://ogp.me/ns#">
-	<!-- Вывод дочерних ресурсов-->
-	{{@FILE assets/templates/projectsoft/tpl/head.html}}
+<html lang="ru" prefix="og: http://ogp.me/ns#">{{@FILE assets/templates/projectsoft/tpl/head.html}}
 	<body>
 		<div class="bodywrapp">{{@FILE assets/templates/projectsoft/tpl/topmenu.html}}
 			<div class="section container">
@@ -16,8 +14,9 @@
 				<div class="row">
 					<div class="container-fluid">
 						<h1>[[alterTitle]]</h1>
-						<div class="content hyphenation bvi-tts">[*content*]
-							<!-- Вывод дочерних ресурсов-->[[DLMenu?
+						<div class="content hyphenation bvi-tts">
+							[*content*]
+							[[DLMenu?
 								&parents=`[*id*]`
 								&maxDepth=`1`
 								&showParent=`0`

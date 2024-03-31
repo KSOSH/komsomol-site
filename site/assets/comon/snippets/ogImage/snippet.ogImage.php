@@ -30,10 +30,10 @@ if(is_file(MODX_BASE_PATH . $img)):
 	$out .= '<meta property="og:image:width" content="400" />';
 	$out .= '<meta property="og:image:height" content="400" />';
 	$out .= '<meta property="og:image:type" content="image/jpeg" />';
-	$out .= '<meta name="twitter:image0" content="' . $modx->config['site_url'] . $img . '" />';
-	$out .= '<meta name="twitter:image1" content="' . $og_1 . '" />';
-	$out .= '<meta name="twitter:image2" content="' . $og_2 . '" />';
-	$out .= '<meta name="twitter:image3" content="' . $og_3 . '" />';
+	//$out .= '<meta name="twitter:image0" content="' . $modx->config['site_url'] . $img . '" />';
+	//$out .= '<meta name="twitter:image1" content="' . $og_1 . '" />';
+	//$out .= '<meta name="twitter:image2" content="' . $og_2 . '" />';
+	//$out .= '<meta name="twitter:image3" content="' . $og_3 . '" />';
 	return $out;
 endif;
 return $out;

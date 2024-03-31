@@ -1203,6 +1203,14 @@
 				server += "&image=" + image;
 				server += "&description=" + encodeURIComponent(description);
 				break;
+			// Поделиться в Telegram
+			case "telegram":
+				let ttl = title + "\n\n" + description;
+				ttl = ttl.substring(0, 247) + "...";
+				server = "https://t.me/share/url?";
+				server += "url=" + encodeURIComponent(link);
+				server += "&text=" + encodeURIComponent(ttl);
+				break;
 			// Поделиться в Twitter
 			case "twitter":
 				//Длина сообщения 255 символов
