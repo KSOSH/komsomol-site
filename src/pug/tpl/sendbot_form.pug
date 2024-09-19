@@ -1,5 +1,8 @@
 .hidden
 	#sendbot.form.modal-form.sendbot
+		button(data-fancybox-close="" class="fancybox-button fancybox-button--close" title="Закрыть")
+			svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24")
+				path(d="M12 10.6L6.6 5.2 5.2 6.6l5.4 5.4-5.4 5.4 1.4 1.4 5.4-5.4 5.4 5.4 1.4-1.4-5.4-5.4 5.4-5.4-1.4-1.4-5.4 5.4z")
 		.row
 			h2.container-full.text-center.form-title
 				|Задать вопрос
@@ -34,10 +37,9 @@
 							.form-group-item.form-group.clearfix
 								label
 									input.form-group-item-control(type="checkbox" name="policy" required="required" checked)
-									|&nbsp;
-									|согласен с условиями
-									| !{' '}
-									a(href="[(site_url)][~79~]" target="_blank")
+									|&nbsp;согласен с условиями политики конфиденциальности
+									//- =" "
+									//- a(href="[(site_url)][~79~]" target="_blank")
 										|политики конфиденциальности
 							.form-group-item.form-group.clearfix.text-center
 								button.btn(type="submit")

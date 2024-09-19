@@ -9297,6 +9297,16 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
   height: 100%;
 }
 
+.form.modal-form.sendbot {
+  position: relative;
+}
+
+.form.modal-form.sendbot .fancybox-button--close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .form-title {
   margin-top: 0;
 }
