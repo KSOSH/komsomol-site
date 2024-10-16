@@ -15,13 +15,15 @@
 
 		'templates' => [
 			'owner' => '
-				<div class="richtext">
-				[+text:ifnotempty=`<h3 class="text-center news-title">`+][+text+][+text:ifnotempty=`</h3>`+]
+				<div class="richtext clearfix">
+					[!ifnotempty? &input=`[+text+]` &replace=`<h3 class="text-center">%replace%</h3>`!]
+				<!-- [+text:ifnotempty=`<h3 class="text-center">`+][+text+][+text:ifnotempty=`</h3>`+] -->
 					[+documents+]
 				</div>
 			',
 			'documents' => '
-				[+title:ifnotempty=`<h4 class="text-center news-title">`+][+title+][+title:ifnotempty=`</h4>`+]
+				[!ifnotempty? &input=`[+title+]` &replace=`<h4 class="text-center">%replace%</h4>`!]
+				<!-- [+title:ifnotempty=`<h4 class="text-center">`+][+title+][+title:ifnotempty=`</h4>`+] -->
 				[+richtext+]
 			',
 		],

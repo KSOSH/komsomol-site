@@ -15,8 +15,8 @@
 
 		'templates' => [
 			'owner' => '
-				<div class="gallery">
-				[+text:ifnotempty=`<h3 class="text-center gallery-title">`+][+text+][+text:ifnotempty=`</h3>`+]
+				<div class="gallery clearfix">
+					[!ifnotempty? &input=`[+text+]` &replace=`<h3 class="text-center">%replace%</h3>`!]
 					<ul class="gallery--list">
 						[+documents+]
 					</ul>

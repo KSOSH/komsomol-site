@@ -15,15 +15,15 @@
 
 		'templates' => [
 			'owner' => '
-				<div class="documents">
-				[+text:ifnotempty=`<h3 class="text-center news-title">`+][+text+][+text:ifnotempty=`</h3>`+]
-					<ul class="documents--list">
+				<div class="documents clearfix">
+					[!ifnotempty? &input=`[+text+]` &replace=`<h3 class="text-center">%replace%</h3>`!]
+					<ul>
 						[+documents+]
 					</ul>
 				</div>
 			',
 			'documents' => '
-				<li class="documents--list-item">
+				<li>
 					<a target="_blank" href="[+file+]" download="[+text+][[FileExt? &file=`[+file+]`]]">[+text+]</a>
 				</li>
 			',

@@ -16,7 +16,7 @@
 		'templates' => [
 			'owner' => '
 				<div class="videos">
-				[+text:ifnotempty=`<h3 class="text-center news-title">`+][+text+][+text:ifnotempty=`</h3>`+]
+					[!ifnotempty? &input=`[+text+]` &replace=`<h3 class="text-center">%replace%</h3>`!]
 					<div class="videos--list">
 						[+videos+]
 					</div>
