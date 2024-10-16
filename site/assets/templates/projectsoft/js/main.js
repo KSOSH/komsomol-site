@@ -1072,6 +1072,8 @@
 	};
 	$.fancybox.defaults.afterClose = function(instance, slide) {
 		$style.innerText = ``;
+		// Удалить историю просмотра pdf файлов
+		localStorage.removeItem("pdfjs.history");
 	};
 	/**
 	 ** Is PDF file open browser supports

@@ -3,9 +3,9 @@
 	return [
 		'title' => 'Page Video`s',
 
-//		'show_in_templates' => [5, 9, 7],
+		'show_in_templates' => [ 7 ],
 
-		'show_in_docs' => [ 319 ],
+//		'show_in_docs' => [ 319 ],
 
 //		'hide_in_docs' => [ 10, 63 ],
 
