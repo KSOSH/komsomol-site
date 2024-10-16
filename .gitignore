@@ -106,6 +106,9 @@ site/assets/tvs/pagebuilder/*
 
 site/assets/comon/js/Hyphenopoly/**/*
 
+!site/assets/plugins/tinymce4/theme
+site/assets/plugins/tinymce4/theme/*
+
 !.gitignore
 !site/assets/tvs/multitv/configs/univers.config.inc.php
 !site/assets/tvs/multitv/configs/photogallery.config.inc.php
@@ -129,3 +132,5 @@ site/assets/comon/js/Hyphenopoly/**/*
 !site/assets/snippets/phpthumb/snippet.thumb.php
 !site/food/.htaccess
 !site/food/index.php
+
+!site/assets/plugins/tinymce4/theme/theme.tinymce4.site.inc.php
