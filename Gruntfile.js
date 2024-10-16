@@ -237,6 +237,9 @@ module.exports = function(grunt) {
 				files : {
 					'test/css/main.css' : [
 						'src/less/main.less'
+					],
+					'test/css/tinymce.css' : [
+						'src/less/style.less'
 					]
 				}
 			},
@@ -275,6 +278,9 @@ module.exports = function(grunt) {
 				files: {
 					'test/css/prefix.main.css' : [
 						'test/css/main.css'
+					],
+					'test/css/tinymce.css' : [
+						'test/css/tinymce.css'
 					]
 				}
 			},
@@ -289,7 +295,8 @@ module.exports = function(grunt) {
 		group_css_media_queries: {
 			group: {
 				files: {
-					'test/css/media/main.css': ['test/css/prefix.main.css']
+					'test/css/media/main.css': ['test/css/prefix.main.css'],
+					'test/css/tinymce.css': ['test/css/tinymce.css']
 				}
 			},
 			viewer: {
@@ -320,6 +327,15 @@ module.exports = function(grunt) {
 							'test/css/media/main.css'
 						],
 						dest: 'test/css/replace/',
+						filter: 'isFile'
+					},
+					{
+						expand: true,
+						flatten : true,
+						src: [
+							'test/css/tinymce.css'
+						],
+						dest: '<%= globalConfig.gosave %>/css/',
 						filter: 'isFile'
 					},
 					{
@@ -366,7 +382,8 @@ module.exports = function(grunt) {
 			},
 			minify: {
 				files: {
-					'<%= globalConfig.gosave %>/css/main.min.css' : ['test/css/replace/main.css']
+					'<%= globalConfig.gosave %>/css/main.min.css' : ['test/css/replace/main.css'],
+					'<%= globalConfig.gosave %>/css/tinymce.min.css' : ['<%= globalConfig.gosave %>/css/tinymce.css']
 				}
 			},
 			viewer: {
