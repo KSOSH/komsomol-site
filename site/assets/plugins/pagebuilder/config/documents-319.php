@@ -3,7 +3,9 @@
 	return [
 		'title' => 'Page Documents',
 
-		'show_in_templates' => [ 7 ],
+		'show_in_templates' => [ 76,14,25,26,24,11,20,15,23,7,3,22,16,13,12,17,18,5,4,19 ],
+
+		'icon' => 'fa fa-file-o',
 
 //		'show_in_docs' => [ 319 ],
 

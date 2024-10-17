@@ -3,7 +3,7 @@
 	return [
 		'title' => 'Page Video`s',
 
-		'show_in_templates' => [4],
+		'show_in_templates' => [],
 
 //		'show_in_docs' => [ 82 ],
 
@@ -49,7 +49,7 @@
 					],
 					'EvoVideo' => [
 						'caption' => 'Видео (URL на видео из строки браузера)',
-						'type'    => 'text',
+						'type'    => 'EvoVideo',
 					]
 				]
 			]

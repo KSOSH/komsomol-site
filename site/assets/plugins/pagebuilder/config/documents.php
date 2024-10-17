@@ -11,7 +11,7 @@
 
 //		'order' => 2,
 
-//		'container' => ['programms'],
+		'container' => ['programms'],
 
 		'templates' => [
 			'owner' => '

@@ -3,7 +3,9 @@
 	return [
 		'title' => 'Page Video`s',
 
-		'show_in_templates' => [ 7 ],
+		'show_in_templates' => [ 6,14,25,26,24,11,20,15,23,7,3,22,16,13,12,17,18,5,4,19 ],
+
+		'icon' => 'fa fa-file-video-o',
 
 //		'show_in_docs' => [ 319 ],
 
@@ -24,9 +26,9 @@
 			',
 			'videos' => '
 				<div class="videos--list-item">
-					<a target="_blank" href="[+EvoVideo+]" data-fancybox="video" savefrom_lm="0" target="_blank">
+					<a target="_blank" href="[+video+]" data-fancybox="video" savefrom_lm="0" target="_blank">
 						<span class="overflow">
-							<img src="[[GetEvoVideo? &url=`[+EvoVideo+]` &type=`image`]]" alt="[+text:notags:strip+]">
+							<img src="[[GetEvoVideo? &url=`[+video+]` &type=`image`]]" alt="[+text:notags:strip+]">
 							<span class="bvi-caption-alt">[+text:notags:strip+]</span>
 						</span>
 						<span class="text-center">[+text:notags:strip+]</span>
@@ -47,9 +49,9 @@
 						'caption' => 'Название',
 						'type'    => 'text',
 					],
-					'EvoVideo' => [
+					'video' => [
 						'caption' => 'Видео',
-						'type'    => 'evovideo',
+						'type'    => 'text',
 					]
 				]
 			]
