@@ -110,3 +110,9 @@ $this->set('allow_unsafe_link_target', true, 'bool');
 
 $this->set('image_dimensions', false, 'bool');
 $this->set('image_description', false, 'bool');
+
+$hash = "1.0.0";
+if(is_file(MODX_BASE_PATH . "assets/templates/projectsoft/css/tinymce.css")){
+	$hash = filemtime(MODX_BASE_PATH . "assets/templates/projectsoft/css/tinymce.css");
+}
+$this->set('content_css', '["/assets/templates/projectsoft/css/tinymce.css?hash=hash' . $hash . '"', 'json');
