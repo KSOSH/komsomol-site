@@ -7,7 +7,7 @@ use ProjectSoft\Video;
 $e =& $modx->event;
 $params = $e->params;
 $regexp = '/^((?:https?:\/\/(?:www\.)?(?:rutube|youtube|youtu)\.(?:com|ru)\/))/i';
-$regexp2 = '/"(https?:(?:\\\\)?\/(?:\\\\)\/(?:www\.)?(?:rutube|youtube|youtu)\.(?:com|ru)(?:\\\\)\/.+)"/Usi';;
+$regexp2 = '/"(https?:(?:\\\\)?\/(?:\\\\)\/(?:www\.)?(?:rutube|youtube|youtu)\.(?:com|ru)(?:\\\\)\/.+)"/Usi';
 switch ($e->name) {
 	case 'OnBeforeDocFormSave':
 		/**
