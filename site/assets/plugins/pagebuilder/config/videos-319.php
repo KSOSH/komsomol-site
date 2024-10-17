@@ -43,13 +43,10 @@
 			],
 			'save' => [
 				'caption'  => 'Пересохранить',
-				'type'     => 'checkbox',
+				'type'     => 'radio',
 				'layout'   => 'horizontal',
-				'elements' => [
-					0 => 'No',
-					1 => 'Yes'
-				],
-				'default' => [ 1 ]
+				'elements' => 'No==0||Yes==1',
+				'default'  => 1,
 			],
 			'videos' => [
 				'caption' => 'Видео',
