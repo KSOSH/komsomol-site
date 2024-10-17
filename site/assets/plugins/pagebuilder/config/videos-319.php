@@ -28,8 +28,7 @@
 				<div class="videos--list-item">
 					<a target="_blank" href="[+video+]" data-fancybox="video" savefrom_lm="0" target="_blank">
 						<span class="overflow">
-							<img src="[[GetEvoVideo? &url=`[+video+]` &type=`image` &save=`[+save+]`]]" alt="[+text+]">
-							<span class="bvi-caption-alt">[+text+]</span>
+							<img src="[[GetEvoVideo? &url=`[+video+]` &type=`image`]]" alt="[+text+]">
 						</span>
 						<span class="text-center">[+text+]</span>
 					</a>
@@ -40,13 +39,6 @@
 			'text' => [
 				'caption' => 'Название блока (необязательно)',
 				'type'    => 'text',
-			],
-			'save' => [
-				'caption'  => 'Пересохранить',
-				'type'     => 'radio',
-				'layout'   => 'horizontal',
-				'elements' => 'No==0||Yes==1',
-				'default'  => 1,
 			],
 			'videos' => [
 				'caption' => 'Видео',
