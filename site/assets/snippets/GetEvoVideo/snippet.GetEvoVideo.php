@@ -10,9 +10,9 @@ $arr = $vd->setLink($url);
 
 switch ($type) {
 	case 'image':
-		return $arr['video'] ? $arr["image"] : "";
+		return $arr['image'] ? $arr["image"] . ($save ? "?true" : "?false") : "" . ($save ? "?true" : "?false");
 		break;
 	default:
-		return $arr['video'] ? $arr['video'] . '<p class="text-center"><a href="' . $url . '" target="_blank" savefrom_lm="0">' . $url . '</a></p>' : "";
+		return $arr['video'] ? $arr['video'] . ($save ? "?true" : "?false") : "" . ($save ? "?true" : "?false");
 		break;
 }
