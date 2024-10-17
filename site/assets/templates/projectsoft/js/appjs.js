@@ -14180,7 +14180,7 @@ return jQuery;
 		},
 
 		rutube: {
-			matcher: /^.+rutube.ru\/video\/(.*\/)?([\w]+)(.*)\/?/,
+			matcher: /^.+rutube.ru\/(?:video|shorts)\/(.*\/)?([\w]+)(.*)\/?/,
 			params: {
 				frameBorder: 0,
 			},

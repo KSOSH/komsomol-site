@@ -3,7 +3,9 @@ use ProjectSoft\Video;
 if(!defined('MODX_BASE_PATH')) die('What are you doing? Get out of here!');
 $url = isset($url) ? $url : '';
 $type = isset($type) ? $type : "video";
-$vd = new Video(null, false);
+$save = isset($save) ? $save : "false";
+$save = filter_var($save, FILTER_VALIDATE_BOOLEAN);
+$vd = new Video(null, $save);
 $arr = $vd->setLink($url);
 
 switch ($type) {
