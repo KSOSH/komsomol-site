@@ -1891,6 +1891,59 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+
+.clearfix:before,
+.clearfix:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after,
+.form-horizontal .form-group:after {
+  clear: both;
+}
+
+.clearfix::before,
+.clearfix::after,
+.form-horizontal .form-group::before,
+.form-horizontal .form-group::after {
+  display: table;
+  content: "";
+}
+
+.clearfix::after,
+.form-horizontal .form-group::after {
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after,
+.form-horizontal .form-group:after {
+  clear: both;
+}
+
+.clearfix::before,
+.clearfix::after,
+.form-horizontal .form-group::before,
+.form-horizontal .form-group::after {
+  display: table;
+  content: "";
+}
+
+.clearfix::after,
+.form-horizontal .form-group::after {
+  clear: both;
+}
+
 .hidden {
   display: none !important;
 }
@@ -1922,58 +1975,6 @@ ol.list-content ol > li {
 ul,
 ul ul {
   list-style-type: disc;
-}
-
-.clearfix:before,
-.clearfix:after,
-.form-horizontal .form-group:before,
-.form-horizontal .form-group:after {
-  display: table;
-  content: " ";
-}
-
-.clearfix:after,
-.form-horizontal .form-group:after {
-  clear: both;
-}
-
-.clearfix::before,
-.clearfix::after,
-.form-horizontal .form-group::before,
-.form-horizontal .form-group::after {
-  display: table;
-  content: "";
-}
-
-.clearfix::after,
-.form-horizontal .form-group::after {
-  clear: both;
-}
-
-.clearfix:before,
-.clearfix:after,
-.form-horizontal .form-group:before,
-.form-horizontal .form-group:after {
-  display: table;
-  content: " ";
-}
-
-.clearfix:after,
-.form-horizontal .form-group:after {
-  clear: both;
-}
-
-.clearfix::before,
-.clearfix::after,
-.form-horizontal .form-group::before,
-.form-horizontal .form-group::after {
-  display: table;
-  content: "";
-}
-
-.clearfix::after,
-.form-horizontal .form-group::after {
-  clear: both;
 }
 
 .paginate,

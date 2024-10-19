@@ -6895,6 +6895,7 @@ ymaps[class*="copyrights-promo"] {
 .btn-any:hover > span:nth-child(40) {
   transition-delay: 0.6s;
 }
+
 .hidden {
   display: none !important;
 }
