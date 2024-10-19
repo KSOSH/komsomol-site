@@ -18,7 +18,7 @@
   * */
 
 // Используемые плагины
-$this->set('plugins', 'autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize template', 'string');
+$this->set('plugins', 'autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize', 'string');
 
 // Первая строка тулбара
 $this->set('toolbar1', 'formatselect | undo redo | cut copy paste pastetext | visualchars | visualblocks | code', 'string');
@@ -29,8 +29,8 @@ $this->set('toolbar2', 'bold italic underline strikethrough subscript superscrip
 // Третья строка тулбара emoticons
 $this->set('toolbar3', 'image media | link unlink | table | charmap', 'string');
 
-// Четвёртая строка тулбара (отключаем) | emotic
-$this->set('toolbar4', 'template', 'string');
+// Четвёртая строка тулбара (отключаем)
+$this->set('toolbar4', '', 'string');
 
 // Основное меню (отключаем)
 $this->set('menubar', false, 'bool');
@@ -39,19 +39,19 @@ $this->set('menubar', false, 'bool');
 // Выставляем свой формат выравнивания текста
 $this->set('formats', '{
 			alignleft: {
-				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd,a,span,strong,i,em,b,time",
+				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd",
 				classes: "text-left"
 			},
 			aligncenter: {
-				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd,a,span,strong,i,em,b,time",
+				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd",
 				classes: "text-center"
 			},
 			alignright: {
-				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd,a,span,strong,i,em,b,time",
+				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd",
 				classes: "text-right"
 			},
 			alignjustify: {
-				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd,a,span,strong,i,em,b,time",
+				selector: "p,h1,h2,h3,h4,h5,h6,table,td,th,div,ul,ol,li,dl,dt,dd",
 				classes: "text-justify"
 			},
 			bold: {
@@ -94,12 +94,12 @@ $this->set('table_default_attributes', '{
 	}', 'json');
 $this->set('table_style_by_css', false, 'bool');
 // Бордюр Table
-// Убираем дополнительные стили таблицы (бордерб бакграунд, ...)
+// Убираем дополнительные стили таблицы (бордер, бакграунд, ...)
 $this->set('table_advtab', false, 'bool');
 $this->set('table_cell_advtab', false, 'bool');
 $this->set('table_row_advtab', false, 'bool');
 $this->set('table_appearance_options', false, 'bool');
-// Ресайзер Table
+// Ресайзер Table 
 $this->set('object_resizing', false, 'bool');
 $this->set('table_resize_bars', false, 'bool');
 // ???
@@ -111,8 +111,12 @@ $this->set('allow_unsafe_link_target', true, 'bool');
 $this->set('image_dimensions', false, 'bool');
 $this->set('image_description', false, 'bool');
 
-$hash = "1.0.0";
-if(is_file(MODX_BASE_PATH . "assets/templates/projectsoft/css/tinymce.css")){
-	$hash = filemtime(MODX_BASE_PATH . "assets/templates/projectsoft/css/tinymce.css");
-}
-$this->set('content_css', '["/assets/templates/projectsoft/css/tinymce.css?hash=hash' . $hash . '"', 'json');
+try {
+	$hash = "1.0.0";
+	$css = $this->themeConfig["content_css"]["value"][0];
+	if(is_file(MODX_BASE_PATH . $css)){
+		$hash = filemtime(MODX_BASE_PATH . $css);
+		$css .= '?hash=hash' . $hash;
+		$this->themeConfig["content_css"]["value"][0] = $css;
+	}
+} catch (Exception $e) {}
