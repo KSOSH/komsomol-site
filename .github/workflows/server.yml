@@ -15,7 +15,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        node: [20]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4.1.1
