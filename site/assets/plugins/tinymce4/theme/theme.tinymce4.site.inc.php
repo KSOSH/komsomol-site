@@ -13,9 +13,8 @@
   * Если $editorParam пуст, а $emptyAllowed равен true, $defaultValue будет игнорироваться
   *
   * $this->modxParams содержит массив фактических настроек Modx/user-settings
-  * emotic
-  emoticons
-  * */
+  * 
+  **/
 
 // Используемые плагины
 $this->set('plugins', 'autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize', 'string');
