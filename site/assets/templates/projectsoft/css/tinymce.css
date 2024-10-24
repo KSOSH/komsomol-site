@@ -2805,6 +2805,10 @@ body.screen::after {
   justify-content: center;
 }
 
+body #page {
+  margin-bottom: 2.5em;
+}
+
 .relative {
   position: relative;
 }
