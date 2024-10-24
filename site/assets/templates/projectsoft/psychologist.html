@@ -11,30 +11,31 @@
 					</div>
 				</div>
 				<div class="row">[[DLCrumbs &showCurrent=`1`]]</div>
-				<div class="row">
-					<div class="container-fluid">
-						<h1>[[alterTitle]]</h1>
-						<div class="content hyphenation bvi-tts">[*content*]</div>
-					</div>
-				</div>[[DLMenu?
-					&parents=`[*id*]`
-					&maxDepth=`1`
-					&outerTpl=`@CODE: [+wrap+] `
-					&rowTpl=`@CODE: <h3 class="text-center news-title">[+title+]</h3>[+news_content+]`
-					&urlScheme=`full`
-					&prepare=`\ProjectSoft\PrepareDL::prepareDLMenu`
-					&rowClass=``
-					&firstClass=``
-					&lastClass=``
-					&levelClass=``
-					&webLinkClass=``
-					&parentClass=``
-					&hereClass=``
-					&activeClass=``
-					&oddClass=``
-					&evenClass=``
-				]]
-				{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
+				<div id="page">
+					<div class="row">
+						<div class="container-fluid">
+							<h1>[[alterTitle]]</h1>
+							<div class="content hyphenation bvi-tts">[*content*]</div>
+						</div>
+					</div>[[DLMenu?
+						&parents=`[*id*]`
+						&maxDepth=`1`
+						&outerTpl=`@CODE: [+wrap+] `
+						&rowTpl=`@CODE: <h3 class="text-center news-title">[+title+]</h3>[+news_content+]`
+						&urlScheme=`full`
+						&prepare=`\ProjectSoft\PrepareDL::prepareDLMenu`
+						&rowClass=``
+						&firstClass=``
+						&lastClass=``
+						&levelClass=``
+						&webLinkClass=``
+						&parentClass=``
+						&hereClass=``
+						&activeClass=``
+						&oddClass=``
+						&evenClass=``
+					]]
+				</div>{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
 				{{@FILE assets/templates/projectsoft/tpl/sendbot.html}}
 			</div>{{@FILE assets/templates/projectsoft/tpl/footer.html}}
 		</div>{{@FILE assets/templates/projectsoft/tpl/yepnope.html}}

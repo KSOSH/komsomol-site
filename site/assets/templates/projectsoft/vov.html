@@ -12,32 +12,34 @@
 					</div>
 				</div>
 				<div class="row">[[DLCrumbs &showCurrent=`1`]]</div>
-				<div class="row">
-					<div class="container-fluid">
-						<h1>[[alterTitle]]</h1>
-						<div class="content hyphenation bvi-tts">[*content*]</div>
-					</div>
-				</div>[[DocLister?
-				  &parents=`2`
-				  &display=`5`
-					&filters=`AND(tv:filter:is:vov)`
-				  &tvList=`imageSoc, news_date`
-				  &tvPrefix=``
-				  &orderBy=`news_date DESC`
-				  &sortBy=`news_date`
-				  &sortDir=`DESC`
-				  &tvSortType=`TVDATETIME`
-				  &prepare=`\ProjectSoft\PrepareDL::prepareItem`
-				  &noneTPL=``
-				  &ownerTPL=`@FILE:projectsoft/tpl/news`
-				  &tpl=`@FILE:projectsoft/tpl/news_tpl`
-				  &showParent=`0`
-				  &urlScheme=`full`
-				  &noneWrapOuter=`0`
-				]]
-				<div class="row">
-					<div class="container-fluid">
-						<p class="text-center"><a class="btn btn-any" href="[(site_url)][~170~]">Все новости</a></p>
+				<div id="page">
+					<div class="row">
+						<div class="container-fluid">
+							<h1>[[alterTitle]]</h1>
+							<div class="content hyphenation bvi-tts">[*content*]</div>
+						</div>
+					</div>[[DocLister?
+					  &parents=`2`
+					  &display=`5`
+						&filters=`AND(tv:filter:is:vov)`
+					  &tvList=`imageSoc, news_date`
+					  &tvPrefix=``
+					  &orderBy=`news_date DESC`
+					  &sortBy=`news_date`
+					  &sortDir=`DESC`
+					  &tvSortType=`TVDATETIME`
+					  &prepare=`\ProjectSoft\PrepareDL::prepareItem`
+					  &noneTPL=``
+					  &ownerTPL=`@FILE:projectsoft/tpl/news`
+					  &tpl=`@FILE:projectsoft/tpl/news_tpl`
+					  &showParent=`0`
+					  &urlScheme=`full`
+					  &noneWrapOuter=`0`
+					]]
+					<div class="row">
+						<div class="container-fluid">
+							<p class="text-center"><a class="btn btn-any" href="[(site_url)][~170~]">Все новости</a></p>
+						</div>
 					</div>
 				</div>{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
 				{{@FILE assets/templates/projectsoft/tpl/sendbot.html}}

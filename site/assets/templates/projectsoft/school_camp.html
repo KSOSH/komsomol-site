@@ -12,53 +12,55 @@
 					</div>
 				</div>
 				<div class="row">[[DLCrumbs &showCurrent=`1`]]</div>
-				<div class="row">
-					<div class="container-fluid bvi-tts">
-						<h1>[[alterTitle]]</h1>
-						<div class="content hyphenation">[*content*]
-							<!-- Вывод дочерних ресурсов-->
-							<!-- 415 - новости запрет-->[[DLMenu?
-								&parents=`[*id*]`
-								&maxDepth=`1`
-								&showParent=`0`
-								&urlScheme=`full`
-								&filters=`AND(content:id:isnot:415)`
-								&ownerTPL=`@CODE: <ul>[+wrap+]</ul>`
-								&rowTpl=`@CODE: <li><p><a href="[+url+]" [+link_attributes+]>[+title+]</a></p></li>`
-								&prepare=`\ProjectSoft\PrepareDL::prepareUrlDLMenu`
-								&rowClass=``
-								&firstClass=``
-								&lastClass=``
-								&levelClass=``
-								&webLinkClass=``
-								&parentClass=``
-								&hereClass=``
-								&activeClass=``
-								&oddClass=``
-								&evenClass=``
-							]]
+				<div id="page">
+					<div class="row">
+						<div class="container-fluid bvi-tts">
+							<h1>[[alterTitle]]</h1>
+							<div class="content hyphenation">[*content*]
+								<!-- Вывод дочерних ресурсов-->
+								<!-- 415 - новости запрет-->[[DLMenu?
+									&parents=`[*id*]`
+									&maxDepth=`1`
+									&showParent=`0`
+									&urlScheme=`full`
+									&filters=`AND(content:id:isnot:415)`
+									&ownerTPL=`@CODE: <ul>[+wrap+]</ul>`
+									&rowTpl=`@CODE: <li><p><a href="[+url+]" [+link_attributes+]>[+title+]</a></p></li>`
+									&prepare=`\ProjectSoft\PrepareDL::prepareUrlDLMenu`
+									&rowClass=``
+									&firstClass=``
+									&lastClass=``
+									&levelClass=``
+									&webLinkClass=``
+									&parentClass=``
+									&hereClass=``
+									&activeClass=``
+									&oddClass=``
+									&evenClass=``
+								]]
+							</div>
 						</div>
-					</div>
-				</div>[[DocLister?
-				  &parents=`415`
-				  &display=`5`
-				  &tvList=`imageSoc, news_date`
-				  &tvPrefix=``
-				  &orderBy=`news_date DESC`
-				  &sortBy=`news_date`
-				  &sortDir=`DESC`
-				  &tvSortType=`TVDATETIME`
-				  &prepare=`\ProjectSoft\PrepareDL::prepareItem`
-				  &noneTPL=``
-				  &ownerTPL=`@CODE: <div class="row"><h2 class="news-title text-center container-fluid">Новости пришкольного лагеря</h2><div class="container-fluid content news hyphenation">[+dl.wrap+]</div></div>`
-				  &tpl=`@FILE:projectsoft/tpl/news_tpl`
-				  &showParent=`0`
-				  &urlScheme=`full`
-				  &noneWrapOuter=`0`
-				]]
-				<div class="row">
-					<div class="container-fluid">
-						<p class="text-center"><a class="btn" href="[(site_url)][~415~]">Все новости</a></p>
+					</div>[[DocLister?
+					  &parents=`415`
+					  &display=`5`
+					  &tvList=`imageSoc, news_date`
+					  &tvPrefix=``
+					  &orderBy=`news_date DESC`
+					  &sortBy=`news_date`
+					  &sortDir=`DESC`
+					  &tvSortType=`TVDATETIME`
+					  &prepare=`\ProjectSoft\PrepareDL::prepareItem`
+					  &noneTPL=``
+					  &ownerTPL=`@CODE: <div class="row"><h2 class="news-title text-center container-fluid">Новости пришкольного лагеря</h2><div class="container-fluid content news hyphenation">[+dl.wrap+]</div></div>`
+					  &tpl=`@FILE:projectsoft/tpl/news_tpl`
+					  &showParent=`0`
+					  &urlScheme=`full`
+					  &noneWrapOuter=`0`
+					]]
+					<div class="row">
+						<div class="container-fluid">
+							<p class="text-center"><a class="btn" href="[(site_url)][~415~]">Все новости</a></p>
+						</div>
 					</div>
 				</div>{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
 				{{@FILE assets/templates/projectsoft/tpl/sendbot.html}}

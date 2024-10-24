@@ -15,56 +15,57 @@ html(lang="ru" prefix="og: http://ogp.me/ns#")
 							|{{@FILE assets/templates/projectsoft/tpl/sidebar.html}}
 				.row
 					|[[DLCrumbs &showCurrent=`1`]]
-				.row
-					.container-fluid.bvi-tts
-						h1
-							|[[alterTitle]]
-						.content.hyphenation
-							|[*content*]
-							// Вывод дочерних ресурсов
-							// 415 - новости запрет
-							|[[DLMenu?
-							|	&parents=`[*id*]`
-							|	&maxDepth=`1`
-							|	&showParent=`0`
-							|	&urlScheme=`full`
-							|	&filters=`AND(content:id:isnot:415)`
-							|	&ownerTPL=`@CODE: <ul>[+wrap+]</ul>`
-							|	&rowTpl=`@CODE: <li><p><a href="[+url+]" [+link_attributes+]>[+title+]</a></p></li>`
-							|	&prepare=`\ProjectSoft\PrepareDL::prepareUrlDLMenu`
-							|	&rowClass=``
-							|	&firstClass=``
-							|	&lastClass=``
-							|	&levelClass=``
-							|	&webLinkClass=``
-							|	&parentClass=``
-							|	&hereClass=``
-							|	&activeClass=``
-							|	&oddClass=``
-							|	&evenClass=``
-							|]]
-				|[[DocLister?
-				|   &parents=`415`
-				|   &display=`5`
-				|   &tvList=`imageSoc, news_date`
-				|   &tvPrefix=``
-				|   &orderBy=`news_date DESC`
-				|   &sortBy=`news_date`
-				|   &sortDir=`DESC`
-				|   &tvSortType=`TVDATETIME`
-				|   &prepare=`\ProjectSoft\PrepareDL::prepareItem`
-				|   &noneTPL=``
-				|   &ownerTPL=`@CODE: <div class="row"><h2 class="news-title text-center container-fluid">Новости пришкольного лагеря</h2><div class="container-fluid content news hyphenation">[+dl.wrap+]</div></div>`
-				|   &tpl=`@FILE:projectsoft/tpl/news_tpl`
-				|   &showParent=`0`
-				|   &urlScheme=`full`
-				|   &noneWrapOuter=`0`
-				|]]
-				.row
-					.container-fluid
-						p.text-center
-							a.btn(href="[(site_url)][~415~]")
-								|Все новости
+				#page
+					.row
+						.container-fluid.bvi-tts
+							h1
+								|[[alterTitle]]
+							.content.hyphenation
+								|[*content*]
+								// Вывод дочерних ресурсов
+								// 415 - новости запрет
+								|[[DLMenu?
+								|	&parents=`[*id*]`
+								|	&maxDepth=`1`
+								|	&showParent=`0`
+								|	&urlScheme=`full`
+								|	&filters=`AND(content:id:isnot:415)`
+								|	&ownerTPL=`@CODE: <ul>[+wrap+]</ul>`
+								|	&rowTpl=`@CODE: <li><p><a href="[+url+]" [+link_attributes+]>[+title+]</a></p></li>`
+								|	&prepare=`\ProjectSoft\PrepareDL::prepareUrlDLMenu`
+								|	&rowClass=``
+								|	&firstClass=``
+								|	&lastClass=``
+								|	&levelClass=``
+								|	&webLinkClass=``
+								|	&parentClass=``
+								|	&hereClass=``
+								|	&activeClass=``
+								|	&oddClass=``
+								|	&evenClass=``
+								|]]
+					|[[DocLister?
+					|   &parents=`415`
+					|   &display=`5`
+					|   &tvList=`imageSoc, news_date`
+					|   &tvPrefix=``
+					|   &orderBy=`news_date DESC`
+					|   &sortBy=`news_date`
+					|   &sortDir=`DESC`
+					|   &tvSortType=`TVDATETIME`
+					|   &prepare=`\ProjectSoft\PrepareDL::prepareItem`
+					|   &noneTPL=``
+					|   &ownerTPL=`@CODE: <div class="row"><h2 class="news-title text-center container-fluid">Новости пришкольного лагеря</h2><div class="container-fluid content news hyphenation">[+dl.wrap+]</div></div>`
+					|   &tpl=`@FILE:projectsoft/tpl/news_tpl`
+					|   &showParent=`0`
+					|   &urlScheme=`full`
+					|   &noneWrapOuter=`0`
+					|]]
+					.row
+						.container-fluid
+							p.text-center
+								a.btn(href="[(site_url)][~415~]")
+									|Все новости
 				|{{@FILE assets/templates/projectsoft/tpl/sites-link.html}}
 				|{{@FILE assets/templates/projectsoft/tpl/sendbot.html}}
 			|{{@FILE assets/templates/projectsoft/tpl/footer.html}}
