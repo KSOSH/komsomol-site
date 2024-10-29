@@ -34,3 +34,12 @@ jobs:
             **/viewer/**
             **/assets/templates/projectsoft/images/**
             **/assets/templates/projectsoft/fonts/**
+      - name: Remove Status
+        uses: StephanThierry/ftp-delete-action@v2.1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          remoteFiles: ".status.json;assets/cache/docid_*.php"
+          workingDir: ${{ secrets.DIRECTORY }}
+          ignoreSSL: 1
