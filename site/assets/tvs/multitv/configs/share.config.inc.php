@@ -12,7 +12,10 @@ $settings['fields'] = array(
 	)
 );
 $settings['templates'] = array(
-	'outerTpl' => '<div class="footer-icons"><div class="icons"><ul class="footer-icons-menu"><li><a class="icon-share" href="[!getFullUrl!]#" down-link="share" title="Поделиться"></a><ul class="submenu">[+wrapper+]</ul></li></ul></div></div>',
+	'outerTpl' => '<div class="footer-sendbtn">
+		<button class="callme-btn btn">ФОРМА ОБРАТНОЙ СВЯЗИ</button>
+	</divЮ
+	<div class="footer-icons"><div class="icons"><ul class="footer-icons-menu"><li><a class="icon-share" href="[!getFullUrl!]#" down-link="share" title="Поделиться"></a><ul class="submenu">[+wrapper+]</ul></li></ul></div></div>',
 	'rowTpl' => '<li><a class="icon-[+type+]" href="[!getFullUrl!]#" down-link="[+type+]" title="[+title+]"></a></li>'
 );
 $settings['configuration'] = array(
