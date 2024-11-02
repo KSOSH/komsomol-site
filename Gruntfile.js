@@ -5,13 +5,13 @@ module.exports = function(grunt) {
 		chalk = require('chalk'),
 		PACK = grunt.file.readJSON('package.json'),
 		uniqid = function () {
-			if(DEBUG){
+			//if(DEBUG){
 				var md5 = require('md5');
 				result = md5((new Date()).getTime()).toString();
 				grunt.verbose.writeln("Generate hash: " + chalk.cyan(result) + " >>> OK");
 				return result;
-			}
-			return `v${PACK.version}`;
+			//}
+			//return `v${PACK.version}`;
 		};
 	
 	String.prototype.hashCode = function() {
