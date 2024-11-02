@@ -110,6 +110,10 @@ $this->set('allow_unsafe_link_target', true, 'bool');
 $this->set('image_dimensions', false, 'bool');
 $this->set('image_description', false, 'bool');
 
+// Старт и сохранение
+$this->set('setup', 'function(ed) { ed.on("change", function(e) { documentDirty=true; }); }',  'object');
+$this->set('save_onsavecallback', 'function () { documentDirty=false; document.getElementById("stay").value = 2; document.mutate.save.click(); }',  'object');
+
 try {
 	$hash = "1.0.0";
 	$css = $this->themeConfig["content_css"]["value"][0];
