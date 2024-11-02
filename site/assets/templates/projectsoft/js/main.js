@@ -1306,6 +1306,7 @@
 							},
 							afterClose: function() {
 								Cookies.remove('pdfjs.history', { path: '' });
+								window.localStorage.removeItem('pdfjs.history');
 							}
 						}
 					};
