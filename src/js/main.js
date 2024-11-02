@@ -302,6 +302,9 @@
 									overflow: 'hidden'
 								}).addClass('pdf_viewer');
 							},
+							afterClose: function() {
+								Cookies.remove('pdfjs.history', { path: '' });
+							}
 						}
 					};
 					e.preventDefault();

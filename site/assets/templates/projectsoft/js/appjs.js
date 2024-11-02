@@ -14186,7 +14186,8 @@ return jQuery;
 			},
 			paramPlace: 1,
 			type: 'iframe',
-			url: '//rutube.ru/play/embed/$2',
+			url: 'https://rutube.ru/play/embed/$2',
+			thumb: 'https://rutube.ru/api/video/$2/thumbnail/?redirect=1',
 		},
 
 		instagram: {
