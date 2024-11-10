@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "IconsSite";
-  src: url("/assets/templates/projectsoft/fonts/IconsSite.woff?2ffacfdac295c99d77dab78e9494801f") format("woff"), url("/assets/templates/projectsoft/fonts/IconsSite.woff2?2ffacfdac295c99d77dab78e9494801f") format("woff2"), url("/assets/templates/projectsoft/fonts/IconsSite.ttf?2ffacfdac295c99d77dab78e9494801f") format("truetype");
+  src: url("/assets/templates/projectsoft/fonts/IconsSite.woff?208ad457760e4a3b8eec2bd2fed63ff8") format("woff"), url("/assets/templates/projectsoft/fonts/IconsSite.woff2?208ad457760e4a3b8eec2bd2fed63ff8") format("woff2"), url("/assets/templates/projectsoft/fonts/IconsSite.ttf?208ad457760e4a3b8eec2bd2fed63ff8") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -101,185 +101,189 @@
   content: "\e913";
 }
 
-.icon-eye-new:before {
+.icon-external-link:before {
   content: "\e914";
 }
 
-.icon-eye:before {
+.icon-eye-new:before {
   content: "\e915";
 }
 
-.icon-facebook:before {
+.icon-eye:before {
   content: "\e916";
 }
 
-.icon-fbs:before {
+.icon-facebook:before {
   content: "\e917";
 }
 
-.icon-firefox:before {
+.icon-fbs:before {
   content: "\e918";
 }
 
-.icon-github:before {
+.icon-firefox:before {
   content: "\e919";
 }
 
-.icon-google:before {
+.icon-github:before {
   content: "\e91a";
 }
 
-.icon-home:before {
+.icon-google:before {
   content: "\e91b";
 }
 
-.icon-icofb:before {
+.icon-home:before {
   content: "\e91c";
 }
 
-.icon-icoinsta:before {
+.icon-icofb:before {
   content: "\e91d";
 }
 
-.icon-icook:before {
+.icon-icoinsta:before {
   content: "\e91e";
 }
 
-.icon-icosk:before {
+.icon-icook:before {
   content: "\e91f";
 }
 
-.icon-icotg:before {
+.icon-icosk:before {
   content: "\e920";
 }
 
-.icon-icotw:before {
+.icon-icotg:before {
   content: "\e921";
 }
 
-.icon-icovb:before {
+.icon-icotw:before {
   content: "\e922";
 }
 
-.icon-icovk:before {
+.icon-icovb:before {
   content: "\e923";
 }
 
-.icon-icoyt:before {
+.icon-icovk:before {
   content: "\e924";
 }
 
-.icon-image:before {
+.icon-icoyt:before {
   content: "\e925";
 }
 
-.icon-modx:before {
+.icon-image:before {
   content: "\e926";
 }
 
-.icon-next:before {
+.icon-modx:before {
   content: "\e927";
 }
 
-.icon-ok:before {
+.icon-next:before {
   content: "\e928";
 }
 
-.icon-oks:before {
+.icon-ok:before {
   content: "\e929";
 }
 
-.icon-opera:before {
+.icon-oks:before {
   content: "\e92a";
 }
 
-.icon-phone:before {
+.icon-opera:before {
   content: "\e92b";
 }
 
-.icon-photo:before {
+.icon-phone:before {
   content: "\e92c";
 }
 
-.icon-prev:before {
+.icon-photo:before {
   content: "\e92d";
 }
 
-.icon-print-ic:before {
+.icon-prev:before {
   content: "\e92e";
 }
 
-.icon-print:before {
+.icon-print-ic:before {
   content: "\e92f";
 }
 
-.icon-required:before {
+.icon-print:before {
   content: "\e930";
 }
 
-.icon-reset:before {
+.icon-required:before {
   content: "\e931";
 }
 
-.icon-rss-logo:before {
+.icon-reset:before {
   content: "\e932";
 }
 
-.icon-rss:before {
+.icon-rss-logo:before {
   content: "\e933";
 }
 
-.icon-rutube:before {
+.icon-rss:before {
   content: "\e934";
 }
 
-.icon-search:before {
+.icon-rutube:before {
   content: "\e935";
 }
 
-.icon-share:before {
+.icon-search:before {
   content: "\e936";
 }
 
-.icon-success:before {
+.icon-share:before {
   content: "\e937";
 }
 
-.icon-telegram:before {
+.icon-success:before {
   content: "\e938";
 }
 
-.icon-twitter:before {
+.icon-telegram:before {
   content: "\e939";
 }
 
-.icon-tws:before {
+.icon-twitter:before {
   content: "\e93a";
 }
 
-.icon-up:before {
+.icon-tws:before {
   content: "\e93b";
 }
 
-.icon-vk:before {
+.icon-up:before {
   content: "\e93c";
 }
 
-.icon-vks:before {
+.icon-vk:before {
   content: "\e93d";
 }
 
-.icon-zoom-in:before {
+.icon-vks:before {
   content: "\e93e";
 }
 
-.icon-zoom-out:before {
+.icon-zoom-in:before {
   content: "\e93f";
 }
 
+.icon-zoom-out:before {
+  content: "\e940";
+}
+
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman'), url('/assets/templates/projectsoft/fonts/times.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/times.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/times.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Times New Roman'), url('/assets/templates/projectsoft/fonts/times.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/times.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/times.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -287,7 +291,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Italic'), url('/assets/templates/projectsoft/fonts/timesi.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/timesi.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/timesi.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Times New Roman Italic'), url('/assets/templates/projectsoft/fonts/timesi.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/timesi.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/timesi.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -295,7 +299,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Bold'), url('/assets/templates/projectsoft/fonts/timesbd.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbd.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/timesbd.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Times New Roman Bold'), url('/assets/templates/projectsoft/fonts/timesbd.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbd.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/timesbd.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -303,7 +307,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Bold Italic'), url('/assets/templates/projectsoft/fonts/timesbi.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbi.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/timesbi.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Times New Roman Bold Italic'), url('/assets/templates/projectsoft/fonts/timesbi.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbi.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/timesbi.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -311,7 +315,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arial.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/arial.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/arial.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arial.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/arial.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/arial.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -319,7 +323,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/ariali.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/ariali.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/ariali.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/ariali.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/ariali.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/ariali.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -327,7 +331,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbd.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbd.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/arialbd.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbd.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbd.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/arialbd.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -335,7 +339,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbi.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbi.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/arialbi.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbi.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbi.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/arialbi.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -343,7 +347,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Light'), local('OpenSans-Light'), url('/assets/templates/projectsoft/fonts/opensanslight.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslight.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslight.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('/assets/templates/projectsoft/fonts/opensanslight.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslight.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslight.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -351,7 +355,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -359,7 +363,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans'), local('OpenSans'), url('/assets/templates/projectsoft/fonts/opensans.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensans.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensans.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans'), local('OpenSans'), url('/assets/templates/projectsoft/fonts/opensans.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensans.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensans.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -367,7 +371,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensansitalic.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansitalic.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -375,7 +379,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibold.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibold.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -383,7 +387,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -391,7 +395,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/templates/projectsoft/fonts/opensansbold.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbold.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbold.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/templates/projectsoft/fonts/opensansbold.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbold.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbold.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -399,7 +403,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -407,7 +411,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabold.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabold.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -415,7 +419,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -423,7 +427,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS'), local('ComicSans-MS'), url('/assets/templates/projectsoft/fonts/comic.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/comic.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/comic.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Comic Sans MS'), local('ComicSans-MS'), url('/assets/templates/projectsoft/fonts/comic.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/comic.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/comic.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -431,7 +435,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Italic'), local('ComicSans-MS-Italic'), url('/assets/templates/projectsoft/fonts/comici.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/comici.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/comici.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Comic Sans MS Italic'), local('ComicSans-MS-Italic'), url('/assets/templates/projectsoft/fonts/comici.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/comici.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/comici.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -439,7 +443,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Bold'), local('ComicSans-MS-Bold'), url('/assets/templates/projectsoft/fonts/comicbd.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/comicbd.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/comicbd.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Comic Sans MS Bold'), local('ComicSans-MS-Bold'), url('/assets/templates/projectsoft/fonts/comicbd.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/comicbd.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/comicbd.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -447,7 +451,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Bold Italic'), local('ComicSans-MS-BoldItalic'), url('/assets/templates/projectsoft/fonts/comicz.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/comicz.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/comicz.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Comic Sans MS Bold Italic'), local('ComicSans-MS-BoldItalic'), url('/assets/templates/projectsoft/fonts/comicz.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/comicz.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/comicz.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -455,7 +459,7 @@
 
 @font-face {
   font-family: 'Ruslan Display';
-  src: local('Ruslan Display'), local('RuslanDisplay'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff2?2ffacfdac295c99d77dab78e9494801f') format('woff2'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff?2ffacfdac295c99d77dab78e9494801f') format('woff'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.ttf?2ffacfdac295c99d77dab78e9494801f') format('truetype');
+  src: local('Ruslan Display'), local('RuslanDisplay'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff2?208ad457760e4a3b8eec2bd2fed63ff8') format('woff2'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff?208ad457760e4a3b8eec2bd2fed63ff8') format('woff'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.ttf?208ad457760e4a3b8eec2bd2fed63ff8') format('truetype');
   font-display: swap;
   font-weight: 400;
 }
@@ -6317,7 +6321,7 @@ body.compensate-for-scrollbar {
 }
 
 .slick-prev::before {
-  content: "\e92d";
+  content: "\e92e";
 }
 
 .slick-next {
@@ -6325,7 +6329,7 @@ body.compensate-for-scrollbar {
 }
 
 .slick-next::before {
-  content: "\e927";
+  content: "\e928";
 }
 .slick-dotted .slick-slider {
   margin-bottom: 30px;
@@ -8426,6 +8430,33 @@ input[type="reset"].btn * {
 .sidebar-navmenu-button > * {
   cursor: pointer;
 }
+
+.sidebar-navmenu-button .button-menu {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.sidebar-navmenu-button .button-menu .burger-title-menu {
+  margin-left: 15px;
+}
+
+.sidebar nav ul li a,
+.sidebar nav ul li span {
+  display: block;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+}
+
+.sidebar nav ul li .active {
+  color: #0098ff;
+  background-color: #ffffff;
+}
 .navmenu {
   background-color: #0098ff;
   -webkit-user-select: none;
@@ -8540,8 +8571,7 @@ input[type="reset"].btn * {
   clear: both;
 }
 
-.navmenu ul,
-.navmenu ol {
+.navmenu nav > ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -8555,8 +8585,7 @@ input[type="reset"].btn * {
   margin: 0;
 }
 
-.navmenu ul li,
-.navmenu ol li {
+.navmenu nav > ul li {
   white-space: nowrap;
   padding: 0;
   margin: 0;
@@ -8564,43 +8593,147 @@ input[type="reset"].btn * {
   flex: auto;
 }
 
-.navmenu ul li a,
-.navmenu ol li a {
+.navmenu nav > ul li a,
+.navmenu nav > ul li span {
   transition: background 0.3s ease, color 0.3s ease;
+  padding: 15px;
+  text-align: center;
   font-size: 1.1em;
   display: block;
+  position: relative;
+  text-decoration: none;
+  filter: none !important;
+  outline: none !important;
+}
+
+.navmenu nav > ul li a {
   color: #ffffff;
   background-color: #0098ff;
-  text-decoration: none;
-  padding: 15px;
   box-shadow: inset 0 0 2px #ffffff;
-  text-align: center;
-  filter: none !important;
-  outline: none !important;
 }
 
-.navmenu ul li a:hover,
-.navmenu ol li a:hover,
-.navmenu ul li a.active,
-.navmenu ol li a.active {
+.navmenu nav > ul li a:hover,
+.navmenu nav > ul li a.active {
   background-color: #ffffff;
   color: #0098ff;
   box-shadow: 0 0 2px #0098ff;
 }
 
-.navmenu ul li span,
-.navmenu ol li span {
-  transition: background 0.3s ease, color 0.3s ease;
-  font-size: 1.1em;
+.navmenu nav > ul li span {
+  background-color: #ffffff;
+  color: #0098ff;
+  box-shadow: 0 0 2px #0098ff;
+}
+
+.navmenu nav > ul li > a.parent,
+.navmenu nav > ul li > span.parent {
+  padding-right: 45px;
+}
+
+.navmenu nav > ul li > a.parent::after,
+.navmenu nav > ul li > span.parent::after {
+  font-family: "IconsSite" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e90d";
+  position: absolute;
+  z-index: 1;
+  right: 15px;
+  top: calc(50% - 1em / 2);
+}
+
+.navmenu nav > ul > li:hover > a {
+  background-color: #ffffff;
+  color: #0098ff;
+  box-shadow: 0 0 2px #0098ff;
+}
+
+.navmenu nav > ul > li {
+  position: relative;
+}
+
+.navmenu nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  z-index: 200;
+  margin: 0;
+  max-width: 600px;
+  min-width: 220px;
+}
+
+.navmenu nav > ul > li > ul > li,
+.navmenu nav > ul > li > ul > li span,
+.navmenu nav > ul > li > ul > li a {
+  white-space: normal;
+  text-align: left;
+}
+
+.navmenu nav > ul > li > ul > li a {
+  color: #ffffff;
+  background-color: #408cbf;
+}
+
+.navmenu nav > ul > li > ul > li a[target="_blank"] {
+  padding-right: 45px;
+}
+
+.navmenu nav > ul > li > ul > li a[target="_blank"]::before {
+  font-family: "IconsSite" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e914";
+  position: absolute;
+  z-index: 1;
+  right: 15px;
+  top: calc(50% - 1em / 2);
+}
+
+.navmenu nav > ul > li:hover > ul {
   display: block;
-  text-decoration: none;
-  padding: 15px;
-  text-align: center;
-  filter: none !important;
-  outline: none !important;
-  background-color: #ffffff;
-  color: #0098ff;
-  box-shadow: 0 0 2px #0098ff;
+}
+
+.navmenu-button {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navmenu-button .button-menu {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navmenu-button .button-menu .navmenu-title {
+  margin-right: 15px;
 }
 
 .navmenu-button-container {
@@ -11036,8 +11169,7 @@ body .bodywrapp > .fancybox__wrapper {
     width: 50%;
   }
 
-  .navmenu ul,
-  .navmenu ol {
+  .navmenu nav > ul {
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-wrap: wrap;
@@ -11047,24 +11179,72 @@ body .bodywrapp > .fancybox__wrapper {
     height: 0;
     overflow: hidden;
     box-shadow: 0 0 2px #0098ff;
-  }
-
-  .navmenu ul li,
-  .navmenu ol li {
     white-space: wrap;
   }
 
-  .navmenu ul li a,
-  .navmenu ol li a,
-  .navmenu ul li span,
-  .navmenu ol li span {
+  .navmenu nav > ul li > span.parent::after,
+  .navmenu nav > ul li > a.parent::after {
+    display: none;
+  }
+
+  .navmenu nav > ul li a,
+  .navmenu nav > ul li span {
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.8em;
+    text-align: left;
+    white-space: wrap;
+    font-size: 1em;
+    line-height: 1.15em;
+  }
+
+  .navmenu nav > ul li a {
+    box-shadow: inset 0 0 1px #ffffff;
+  }
+
+  .navmenu nav > ul li li a,
+  .navmenu nav > ul li li span {
+    padding-left: 1.7em;
+  }
+
+  .navmenu nav > ul.open {
+    visibility: visible;
+    height: auto;
+  }
+
+  .navmenu nav > ul > li:hover > a {
+    background-color: #0098ff;
+    color: #ffffff;
+    box-shadow: 0 0 2px #ffffff;
+  }
+
+  .navmenu nav > ul > li > a:hover {
+    background-color: #ffffff;
+    color: #0098ff;
+    box-shadow: 0 0 2px #0098ff;
+  }
+
+  .navmenu nav > ul > li > ul {
+    display: block;
+    position: relative;
+    top: unset;
+    left: unset;
+    list-style: none;
+    z-index: unset;
+    width: unset;
+    max-width: unset;
+  }
+
+  .navmenu nav > ul > li > ul > li span,
+  .navmenu nav > ul > li > ul > li a {
+    white-space: normal;
     text-align: left;
   }
 
-  .navmenu ul.open,
-  .navmenu ol.open {
-    visibility: visible;
-    height: auto;
+  .navmenu nav > ul > li > ul > li a {
+    color: #ffffff;
+    background-color: #0098ff;
   }
 
   .navmenu-button-container {

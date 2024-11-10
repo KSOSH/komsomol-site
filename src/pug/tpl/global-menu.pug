@@ -3,22 +3,30 @@
 		.navmenu-button-container
 			.navmenu-button
 				.button-menu(role="button")
+					span.navmenu-title
+						|МЕНЮ
 					|{{@FILE assets/templates/projectsoft/tpl/button-menu.html}}
 		nav
 			|[[DLMenu?
+			|	&prepare=`prepareDLMenu`
 			|	&parents=`0`
-			|	&maxDepth=`1`
+			|	&maxDepth=`2`
 			|	&showParent=`0`
 			|	&urlScheme=`full`
-			|	&ownerTPL=`@CODE: <ul>[+dl.wrap+]</ul>`
-			|	&rowTpl=`@CODE: <li><a href="[+url+]"[+classes+] [+link_attributes+]>[+title+]</a></li>`
+			|	&ownerTPL=`@CODE: <ul id="menu_[+id+]">[+dl.wrap+]</ul>`
+			|	&rowTpl=`@CODE: <li id="menu_[+id+]"><a href="[+url+]"[+classes+] [+link_attributes+]>[+title+]</a></li>`
 			|	&rowHereTpl=`@CODE: <li><span[+classes+]>[+title+]</span></li>`
+			|
+			|	&parentRowTpl=`@CODE: <li id="menu_[+id+]"><a href="[+url+]"[+classes+] [+link_attributes+]>[+title+]</a>[+wrap+]</li>`
+			|	&parentRowHereTpl=`@CODE: <li id="menu_[+id+]"><a href="[+url+]"[+classes+] [+link_attributes+]>[+title+]</a>[+wrap+]</li>`
+			|	&parentRowActiveTpl=`@CODE: <li id="menu_[+id+]"><a href="[+url+]"[+classes+] [+link_attributes+]>[+title+]</a>[+wrap+]</li>`
+			|
 			|	&rowClass=``
 			|	&firstClass=``
 			|	&lastClass=``
 			|	&levelClass=``
 			|	&webLinkClass=``
-			|	&parentClass=``
+			|	&parentClass=`parent`
 			|	&hereClass=`active`
 			|	&activeClass=`active`
 			|	&oddClass=``

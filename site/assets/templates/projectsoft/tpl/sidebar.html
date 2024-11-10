@@ -1,13 +1,27 @@
 
 <div class="sidebar-navmenu">
 	<div class="sidebar-navmenu-button">
-		<div class="button-menu">{{@FILE assets/templates/projectsoft/tpl/button-menu.html}}</div>
+		<div class="button-menu">{{@FILE assets/templates/projectsoft/tpl/button-menu.html}}<span class="burger-title-menu">Сведения об образовательной организации</span></div>
 	</div>
 </div>
 <nav>
-	[[multiTV? 
-	 &fromJson=`[(side_bar)]` 
-	 &tvName=`side_bar`
-	 &display=`all`
+	[[DLMenu?
+		&parents=`3`
+		&maxDepth=`1`
+		&showParent=`0`
+		&urlScheme=`full`
+		&ownerTPL=`@CODE: <ul>[+dl.wrap+]</ul>`
+		&rowTpl=`@CODE: <li><a href="[+url+]"[+classes+] [+link_attributes+]>[+title+]</a></li>`
+		&rowHereTpl=`@CODE: <li><span[+classes+]>[+title+]</span></li>`
+		&rowClass=``
+		&firstClass=``
+		&lastClass=``
+		&levelClass=``
+		&webLinkClass=``
+		&parentClass=``
+		&hereClass=`active`
+		&activeClass=`active`
+		&oddClass=``
+		&evenClass=``
 	]]
 </nav>

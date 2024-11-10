@@ -1,0 +1,45 @@
+.sidebar {
+	&-navmenu {
+		&-button {
+			display: inline-flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			user-select: none;
+			align-items: center;
+			> span {
+				font-size: 0.8em;
+				color: @white;
+				padding-left: 1em;
+			}
+			> * {
+				cursor: pointer;
+			}
+			.button-menu {
+				align-items: center;
+				display: flex;
+				flex-direction: row;
+				.burger-title-menu {
+					margin-left: @padding;
+				}
+			}
+		}
+	}
+	nav {
+		ul {
+			li {
+				a,
+				span {
+					display: block;
+					padding-top: .3em;
+					padding-bottom: .3em;
+					padding-right: .8em;
+					padding-left: .8em;
+				}
+				.active {
+					color: #0098ff;
+					background-color: #ffffff;
+				}
+			}
+		}
+	}
+}
