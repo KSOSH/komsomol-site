@@ -88,7 +88,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 				);
 			endforeach;
 			*/
-			
+
 		endif;
 	}
 endif;
@@ -121,7 +121,6 @@ switch($e->name){
 		 * Очистим куки
 		 */
 		removeEmptyFoldersSetCookie();
-		sleep(1);
 		break;
 	case "OnManagerLoginFormRender":
 		/**
