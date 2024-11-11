@@ -35,6 +35,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 					setcookie($name, '', $time, '/');
 				endif;
 			endforeach;
+			/*
 			$kcFinder = [
 				'displaySettings',
 				'order',
@@ -85,6 +86,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 					'.gosuslugi.ru'        // domain
 				);
 			endforeach;
+			*/
 		endif;
 	}
 endif;
