@@ -36,7 +36,6 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 				endif;
 			endforeach;
 
-			/*
 			$kcFinder = [
 				'displaySettings',
 				'order',
@@ -69,6 +68,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 					'.komsomol.minobr63.ru'// domain
 				);
 			endforeach;
+			/*
 			foreach($yaMin as $item):
 				setcookie(
 					$item,                 // name
@@ -95,11 +95,20 @@ endif;
 
 $e = &$modx->event;
 
-$output = '
+$output = <<<EOD
 <script>
 	localStorage.clear();
 	sessionStorage.clear();
-</script>';
+</script>
+<style>
+	#onManagerLoginFormRender::before,
+	#onManagerLoginFormRender::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+</style>
+EOD;
 
 switch($e->name){
 	case "OnManagerLogin":
