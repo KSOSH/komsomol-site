@@ -35,6 +35,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 					setcookie($name, '', $time, '/');
 				endif;
 			endforeach;
+
 			/*
 			$kcFinder = [
 				'displaySettings',
@@ -87,6 +88,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 				);
 			endforeach;
 			*/
+			
 		endif;
 	}
 endif;
