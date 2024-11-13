@@ -2,7 +2,10 @@
 	.container
 		.row
 			.container-fluid.text-center
-				.flex.flex-column
+				.flex.flex-row
+					.footer-sendbtn
+						button.callme-btn.btn(data-trigger="sendbot")
+							|ФОРМА ОБРАТНОЙ СВЯЗИ
 					|[[multiTV? 
 					|	&fromJson=`[(share)]` 
 					|	&tvName=`share`

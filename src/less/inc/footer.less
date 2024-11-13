@@ -14,18 +14,45 @@
 		display: flex;
 	}
 	.flex-column {
+		position: relative;
 		flex-direction: column;
 		text-align: center;
 		justify-content: center;
 		align-items: center;
+	}
+	.flex-row {
+		flex-wrap: wrap;
 		position: relative;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding-top: @padding;
+	}
+	&-sendbtn {
+		@media(max-width: 450px) {
+			order: 2;
+			width: 100%;
+			margin-top: @padding;
+		}
+		.btn {
+			&.callme-btn {
+				box-shadow: 0 0 3px @white;
+				font-style: normal;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
 	}
 	&-wrapper {
 		flex: 1 0 auto;
 		width: 100%;
-		padding-top: 60px;
+		padding-top: @padding;
+		//@media(max-width: 450px) {
+		//	padding-top: @padding;
+		//}
 		p {
 			margin-top: 0;
+		}
+		@media(max-width: 450px) {
+			order: 3;
 		}
 	}
 	&-organization {
@@ -56,6 +83,10 @@
 		font-family: "Consolas";
 	}
 	&-icons {
+		@media(max-width: 450px) {
+			order: 1;
+			width: 100%;
+		}
 		&-menu {
 			display: block;
 			margin: 0;
@@ -140,9 +171,9 @@
 			}
 		}
 		.icons {
-			position: absolute;
-			right: 0;
-			top: 15px;
+			// position: absolute;
+			// right: 0;
+			// top: 15px;
 			.footer-icons-menu {
 				> li > a {
 					position: absolute;
