@@ -19,6 +19,15 @@ input[type="reset"] {
 		border: none;
 		appearance: none;
 		outline: none !important;
+		user-select: none;
+		* {
+			&,
+			&::before,
+			&::after {
+				user-select: none;
+				pointer-events: none;
+			}
+		}
 		&:hover,
 		&:focus,
 		&:active {
@@ -27,8 +36,178 @@ input[type="reset"] {
 			text-decoration: none;
 			box-shadow: 0 0 2px @bg-color;
 		}
-		* {
-			pointer-events: none;
+	}
+}
+
+html {
+	body {
+		.bvi-body {
+			&[data-bvi-theme=white] {
+				*,
+				a,
+				button,
+				input[type="button"],
+				input[type="submit"],
+				input[type="reset"] {
+					&.btn {
+						background-color: white !important;
+						color: black;
+						box-shadow: 0 0 2px black !important;
+						outline: none !important;
+						span {
+							background-color: transparent !important;
+						}
+						&:hover,
+						&:focus,
+						&:active {
+							background-color: black !important;
+							color: white !important;
+							text-decoration: none;
+							box-shadow: 0 0 2px black;
+							span {
+								background-color: transparent !important;
+							}
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=black] {
+				*,
+				a,
+				button,
+				input[type="button"],
+				input[type="submit"],
+				input[type="reset"] {
+					&.btn {
+						background-color: black !important;
+						box-shadow: 0 0 2px white !important;
+						outline: none !important;
+						span {
+							background-color: transparent !important;
+						}
+						&:hover,
+						&:focus,
+						&:active {
+							background-color: white !important;
+							color: black !important;
+							text-decoration: none;
+							box-shadow: 0 0 2px white;
+							span {
+								background-color: transparent !important;
+							}
+						}
+						* {
+							pointer-events: none;
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=blue] {
+				*,
+				a,
+				button,
+				input[type="button"],
+				input[type="submit"],
+				input[type="reset"] {
+					&.btn {
+						background-color: #9dd1ff !important;
+						box-shadow: 0 0 2px #063462 !important;
+						color: #063462 !important;
+						outline: none !important;
+						&::before,
+						&::after {
+							color: #063462 !important;
+						}
+						span {
+							background-color: transparent !important;
+							color: #063462 !important;
+						}
+						&:hover,
+						&:focus,
+						&:active {
+							background-color: #063462 !important;
+							color: #9dd1ff !important;
+							text-decoration: none;
+							box-shadow: 0 0 2px #063462;
+							span {
+								background-color: transparent !important;
+								color: #9dd1ff !important;
+							}
+							&::before,
+							&::after {
+								color: #9dd1ff !important;
+							}
+						}
+						* {
+							pointer-events: none;
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=brown] {
+				*,
+				a,
+				button,
+				input[type="button"],
+				input[type="submit"],
+				input[type="reset"] {
+					&.btn {
+						background-color: #f7f3d6 !important;
+						box-shadow: 0 0 2px #4d4b43 !important;
+						color: #4d4b43 !important;
+						outline: none !important;
+						span {
+							background-color: transparent !important;
+						}
+						&:hover,
+						&:focus,
+						&:active {
+							background-color: #4d4b43 !important;
+							color: #f7f3d6 !important;
+							text-decoration: none;
+							box-shadow: 0 0 2px #4d4b43;
+							span {
+								background-color: transparent !important;
+							}
+						}
+						* {
+							pointer-events: none;
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=green] {
+				*,
+				a,
+				button,
+				input[type="button"],
+				input[type="submit"],
+				input[type="reset"] {
+					&.btn {
+						background-color: #3b2716 !important;
+						box-shadow: 0 0 2px #a9e44d !important;
+						color: #a9e44d !important;
+						outline: none !important;
+						span {
+							background-color: transparent !important;
+						}
+						&:hover,
+						&:focus,
+						&:active {
+							background-color: #a9e44d !important;
+							color: #3b2716 !important;
+							text-decoration: none;
+							box-shadow: 0 0 2px #a9e44d;
+							span {
+								background-color: transparent !important;
+							}
+						}
+						* {
+							pointer-events: none;
+						}
+					}
+				}
+			}
 		}
 	}
 }

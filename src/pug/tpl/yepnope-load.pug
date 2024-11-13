@@ -1,5 +1,5 @@
 script(type="text/javascript")
-	//- |/*var Hyphenopoly = {
+	//- |var Hyphenopoly = {
 		|	require: {
 		|		ru		: "ru"
 		|	},
@@ -14,11 +14,13 @@ script(type="text/javascript")
 		|			}
 		|		}
 		|	}
-		|};*/
-	|window.HTTP_CLIENT = 0;
-	|yepnope('assets/templates/projectsoft/js/appjs.min.js?#{hash}', undefined, function() {
-	|	yepnope('assets/templates/projectsoft/js/main.min.js?#{hash}', undefined, function() {
-	|		/*yepnope('assets/comon/js/Hyphenopoly/Hyphenopoly_Loader.js', undefined, function() {});*/
-	|	})
-	|});
+		|};
+	//- |window.HTTP_CLIENT = 0;
+		|yepnope('assets/templates/projectsoft/js/appjs.min.js?#{hash}', undefined, function() {
+		|	yepnope('assets/templates/projectsoft/js/main.min.js?#{hash}', undefined, function() {
+		|		/*yepnope('assets/comon/js/Hyphenopoly/Hyphenopoly_Loader.js', undefined, function() {});*/
+		|	})
+		|});
+script(src="assets/templates/projectsoft/js/appjs.min.js?" + hash)
+script(src="assets/templates/projectsoft/js/main.min.js?" + hash)
 |[!YandexMetrika!]

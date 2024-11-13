@@ -154,8 +154,8 @@ module.exports = function(grunt) {
 			},
 			main: {
 				src: [
-					'src/js/jquery.btn.js',
 					'src/js/bvi.js',
+					'src/js/jquery.btn.js',
 					'src/js/main.js'
 				],
 				dest: 'test/js/main.js'

@@ -15,6 +15,7 @@
 				}).data({
 					'btnany': true
 				});
+				$(this).addClass('btn-any');
 			}
 		});
 	};

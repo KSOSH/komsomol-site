@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "IconsSite";
-  src: url("/assets/templates/projectsoft/fonts/IconsSite.woff?f0dd8d9671e5cb8df0940262ccce1bae") format("woff"), url("/assets/templates/projectsoft/fonts/IconsSite.woff2?f0dd8d9671e5cb8df0940262ccce1bae") format("woff2"), url("/assets/templates/projectsoft/fonts/IconsSite.ttf?f0dd8d9671e5cb8df0940262ccce1bae") format("truetype");
+  src: url("/assets/templates/projectsoft/fonts/IconsSite.woff?62e4a5453c5437660ee3d9f4f2090a31") format("woff"), url("/assets/templates/projectsoft/fonts/IconsSite.woff2?62e4a5453c5437660ee3d9f4f2090a31") format("woff2"), url("/assets/templates/projectsoft/fonts/IconsSite.ttf?62e4a5453c5437660ee3d9f4f2090a31") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -283,7 +283,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman'), url('/assets/templates/projectsoft/fonts/times.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/times.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/times.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Times New Roman'), url('/assets/templates/projectsoft/fonts/times.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/times.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/times.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -291,7 +291,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Italic'), url('/assets/templates/projectsoft/fonts/timesi.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/timesi.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/timesi.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Times New Roman Italic'), url('/assets/templates/projectsoft/fonts/timesi.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/timesi.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/timesi.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -299,7 +299,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Bold'), url('/assets/templates/projectsoft/fonts/timesbd.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbd.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/timesbd.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Times New Roman Bold'), url('/assets/templates/projectsoft/fonts/timesbd.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbd.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/timesbd.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -307,7 +307,7 @@
 
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman Bold Italic'), url('/assets/templates/projectsoft/fonts/timesbi.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbi.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/timesbi.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Times New Roman Bold Italic'), url('/assets/templates/projectsoft/fonts/timesbi.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/timesbi.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/timesbi.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -315,7 +315,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arial.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/arial.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/arial.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arial.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/arial.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/arial.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -323,7 +323,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/ariali.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/ariali.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/ariali.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/ariali.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/ariali.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/ariali.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -331,7 +331,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbd.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbd.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/arialbd.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbd.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbd.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/arialbd.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -339,7 +339,7 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbi.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbi.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/arialbi.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Arial'), local('Arial'), url('/assets/templates/projectsoft/fonts/arialbi.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/arialbi.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/arialbi.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -347,7 +347,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Light'), local('OpenSans-Light'), url('/assets/templates/projectsoft/fonts/opensanslight.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslight.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslight.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('/assets/templates/projectsoft/fonts/opensanslight.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslight.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslight.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -355,7 +355,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensanslightitalic.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -363,7 +363,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans'), local('OpenSans'), url('/assets/templates/projectsoft/fonts/opensans.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensans.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensans.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans'), local('OpenSans'), url('/assets/templates/projectsoft/fonts/opensans.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensans.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensans.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -371,7 +371,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensansitalic.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansitalic.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensansitalic.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -379,7 +379,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibold.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibold.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibold.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -387,7 +387,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensanssemibolditalic.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -395,7 +395,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/templates/projectsoft/fonts/opensansbold.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbold.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbold.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/templates/projectsoft/fonts/opensansbold.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbold.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbold.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -403,7 +403,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensansbolditalic.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -411,7 +411,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabold.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabold.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabold.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -419,7 +419,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/opensansextrabolditalic.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -427,7 +427,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS'), local('ComicSans-MS'), url('/assets/templates/projectsoft/fonts/comic.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/comic.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/comic.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Comic Sans MS'), local('ComicSans-MS'), url('/assets/templates/projectsoft/fonts/comic.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/comic.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/comic.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -435,7 +435,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Italic'), local('ComicSans-MS-Italic'), url('/assets/templates/projectsoft/fonts/comici.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/comici.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/comici.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Comic Sans MS Italic'), local('ComicSans-MS-Italic'), url('/assets/templates/projectsoft/fonts/comici.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/comici.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/comici.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -443,7 +443,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Bold'), local('ComicSans-MS-Bold'), url('/assets/templates/projectsoft/fonts/comicbd.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/comicbd.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/comicbd.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Comic Sans MS Bold'), local('ComicSans-MS-Bold'), url('/assets/templates/projectsoft/fonts/comicbd.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/comicbd.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/comicbd.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -451,7 +451,7 @@
 
 @font-face {
   font-family: 'Comic Sans MS';
-  src: local('Comic Sans MS Bold Italic'), local('ComicSans-MS-BoldItalic'), url('/assets/templates/projectsoft/fonts/comicz.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/comicz.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/comicz.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Comic Sans MS Bold Italic'), local('ComicSans-MS-BoldItalic'), url('/assets/templates/projectsoft/fonts/comicz.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/comicz.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/comicz.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -459,7 +459,7 @@
 
 @font-face {
   font-family: 'Ruslan Display';
-  src: local('Ruslan Display'), local('RuslanDisplay'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff2?f0dd8d9671e5cb8df0940262ccce1bae') format('woff2'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff?f0dd8d9671e5cb8df0940262ccce1bae') format('woff'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.ttf?f0dd8d9671e5cb8df0940262ccce1bae') format('truetype');
+  src: local('Ruslan Display'), local('RuslanDisplay'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff2?62e4a5453c5437660ee3d9f4f2090a31') format('woff2'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.woff?62e4a5453c5437660ee3d9f4f2090a31') format('woff'), url('/assets/templates/projectsoft/fonts/RuslanDisplayRegular.ttf?62e4a5453c5437660ee3d9f4f2090a31') format('truetype');
   font-display: swap;
   font-weight: 400;
 }
@@ -8074,6 +8074,33 @@ input[type="reset"].btn {
   border: none;
   appearance: none;
   outline: none !important;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+*.btn *,
+a.btn *,
+button.btn *,
+input[type="button"].btn *,
+input[type="submit"].btn *,
+input[type="reset"].btn *,
+*.btn *::before,
+a.btn *::before,
+button.btn *::before,
+input[type="button"].btn *::before,
+input[type="submit"].btn *::before,
+input[type="reset"].btn *::before,
+*.btn *::after,
+a.btn *::after,
+button.btn *::after,
+input[type="button"].btn *::after,
+input[type="submit"].btn *::after,
+input[type="reset"].btn *::after {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 *.btn:hover,
@@ -8100,12 +8127,424 @@ input[type="reset"].btn:active {
   box-shadow: 0 0 2px #0098ff;
 }
 
-*.btn *,
-a.btn *,
-button.btn *,
-input[type="button"].btn *,
-input[type="submit"].btn *,
-input[type="reset"].btn * {
+html body .bvi-body[data-bvi-theme=white] *.btn,
+html body .bvi-body[data-bvi-theme=white] a.btn,
+html body .bvi-body[data-bvi-theme=white] button.btn,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn {
+  background-color: white !important;
+  color: black;
+  box-shadow: 0 0 2px black !important;
+  outline: none !important;
+}
+
+html body .bvi-body[data-bvi-theme=white] *.btn span,
+html body .bvi-body[data-bvi-theme=white] a.btn span,
+html body .bvi-body[data-bvi-theme=white] button.btn span,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn span,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn span,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=white] *.btn:hover,
+html body .bvi-body[data-bvi-theme=white] a.btn:hover,
+html body .bvi-body[data-bvi-theme=white] button.btn:hover,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn:hover,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn:hover,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn:hover,
+html body .bvi-body[data-bvi-theme=white] *.btn:focus,
+html body .bvi-body[data-bvi-theme=white] a.btn:focus,
+html body .bvi-body[data-bvi-theme=white] button.btn:focus,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn:focus,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn:focus,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn:focus,
+html body .bvi-body[data-bvi-theme=white] *.btn:active,
+html body .bvi-body[data-bvi-theme=white] a.btn:active,
+html body .bvi-body[data-bvi-theme=white] button.btn:active,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn:active,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn:active,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn:active {
+  background-color: black !important;
+  color: white !important;
+  text-decoration: none;
+  box-shadow: 0 0 2px black;
+}
+
+html body .bvi-body[data-bvi-theme=white] *.btn:hover span,
+html body .bvi-body[data-bvi-theme=white] a.btn:hover span,
+html body .bvi-body[data-bvi-theme=white] button.btn:hover span,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn:hover span,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn:hover span,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn:hover span,
+html body .bvi-body[data-bvi-theme=white] *.btn:focus span,
+html body .bvi-body[data-bvi-theme=white] a.btn:focus span,
+html body .bvi-body[data-bvi-theme=white] button.btn:focus span,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn:focus span,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn:focus span,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn:focus span,
+html body .bvi-body[data-bvi-theme=white] *.btn:active span,
+html body .bvi-body[data-bvi-theme=white] a.btn:active span,
+html body .bvi-body[data-bvi-theme=white] button.btn:active span,
+html body .bvi-body[data-bvi-theme=white] input[type="button"].btn:active span,
+html body .bvi-body[data-bvi-theme=white] input[type="submit"].btn:active span,
+html body .bvi-body[data-bvi-theme=white] input[type="reset"].btn:active span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=black] *.btn,
+html body .bvi-body[data-bvi-theme=black] a.btn,
+html body .bvi-body[data-bvi-theme=black] button.btn,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn {
+  background-color: black !important;
+  box-shadow: 0 0 2px white !important;
+  outline: none !important;
+}
+
+html body .bvi-body[data-bvi-theme=black] *.btn span,
+html body .bvi-body[data-bvi-theme=black] a.btn span,
+html body .bvi-body[data-bvi-theme=black] button.btn span,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn span,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn span,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=black] *.btn:hover,
+html body .bvi-body[data-bvi-theme=black] a.btn:hover,
+html body .bvi-body[data-bvi-theme=black] button.btn:hover,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn:hover,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn:hover,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn:hover,
+html body .bvi-body[data-bvi-theme=black] *.btn:focus,
+html body .bvi-body[data-bvi-theme=black] a.btn:focus,
+html body .bvi-body[data-bvi-theme=black] button.btn:focus,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn:focus,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn:focus,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn:focus,
+html body .bvi-body[data-bvi-theme=black] *.btn:active,
+html body .bvi-body[data-bvi-theme=black] a.btn:active,
+html body .bvi-body[data-bvi-theme=black] button.btn:active,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn:active,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn:active,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn:active {
+  background-color: white !important;
+  color: black !important;
+  text-decoration: none;
+  box-shadow: 0 0 2px white;
+}
+
+html body .bvi-body[data-bvi-theme=black] *.btn:hover span,
+html body .bvi-body[data-bvi-theme=black] a.btn:hover span,
+html body .bvi-body[data-bvi-theme=black] button.btn:hover span,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn:hover span,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn:hover span,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn:hover span,
+html body .bvi-body[data-bvi-theme=black] *.btn:focus span,
+html body .bvi-body[data-bvi-theme=black] a.btn:focus span,
+html body .bvi-body[data-bvi-theme=black] button.btn:focus span,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn:focus span,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn:focus span,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn:focus span,
+html body .bvi-body[data-bvi-theme=black] *.btn:active span,
+html body .bvi-body[data-bvi-theme=black] a.btn:active span,
+html body .bvi-body[data-bvi-theme=black] button.btn:active span,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn:active span,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn:active span,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn:active span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=black] *.btn *,
+html body .bvi-body[data-bvi-theme=black] a.btn *,
+html body .bvi-body[data-bvi-theme=black] button.btn *,
+html body .bvi-body[data-bvi-theme=black] input[type="button"].btn *,
+html body .bvi-body[data-bvi-theme=black] input[type="submit"].btn *,
+html body .bvi-body[data-bvi-theme=black] input[type="reset"].btn * {
+  pointer-events: none;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn,
+html body .bvi-body[data-bvi-theme=blue] a.btn,
+html body .bvi-body[data-bvi-theme=blue] button.btn,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn {
+  background-color: #9dd1ff !important;
+  box-shadow: 0 0 2px #063462 !important;
+  color: #063462 !important;
+  outline: none !important;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn::before,
+html body .bvi-body[data-bvi-theme=blue] a.btn::before,
+html body .bvi-body[data-bvi-theme=blue] button.btn::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn::before,
+html body .bvi-body[data-bvi-theme=blue] *.btn::after,
+html body .bvi-body[data-bvi-theme=blue] a.btn::after,
+html body .bvi-body[data-bvi-theme=blue] button.btn::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn::after {
+  color: #063462 !important;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn span,
+html body .bvi-body[data-bvi-theme=blue] a.btn span,
+html body .bvi-body[data-bvi-theme=blue] button.btn span,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn span,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn span,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn span {
+  background-color: transparent !important;
+  color: #063462 !important;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn:hover,
+html body .bvi-body[data-bvi-theme=blue] a.btn:hover,
+html body .bvi-body[data-bvi-theme=blue] button.btn:hover,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:hover,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:hover,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:hover,
+html body .bvi-body[data-bvi-theme=blue] *.btn:focus,
+html body .bvi-body[data-bvi-theme=blue] a.btn:focus,
+html body .bvi-body[data-bvi-theme=blue] button.btn:focus,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:focus,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:focus,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:focus,
+html body .bvi-body[data-bvi-theme=blue] *.btn:active,
+html body .bvi-body[data-bvi-theme=blue] a.btn:active,
+html body .bvi-body[data-bvi-theme=blue] button.btn:active,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:active,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:active,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:active {
+  background-color: #063462 !important;
+  color: #9dd1ff !important;
+  text-decoration: none;
+  box-shadow: 0 0 2px #063462;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn:hover span,
+html body .bvi-body[data-bvi-theme=blue] a.btn:hover span,
+html body .bvi-body[data-bvi-theme=blue] button.btn:hover span,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:hover span,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:hover span,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:hover span,
+html body .bvi-body[data-bvi-theme=blue] *.btn:focus span,
+html body .bvi-body[data-bvi-theme=blue] a.btn:focus span,
+html body .bvi-body[data-bvi-theme=blue] button.btn:focus span,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:focus span,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:focus span,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:focus span,
+html body .bvi-body[data-bvi-theme=blue] *.btn:active span,
+html body .bvi-body[data-bvi-theme=blue] a.btn:active span,
+html body .bvi-body[data-bvi-theme=blue] button.btn:active span,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:active span,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:active span,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:active span {
+  background-color: transparent !important;
+  color: #9dd1ff !important;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn:hover::before,
+html body .bvi-body[data-bvi-theme=blue] a.btn:hover::before,
+html body .bvi-body[data-bvi-theme=blue] button.btn:hover::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:hover::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:hover::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:hover::before,
+html body .bvi-body[data-bvi-theme=blue] *.btn:focus::before,
+html body .bvi-body[data-bvi-theme=blue] a.btn:focus::before,
+html body .bvi-body[data-bvi-theme=blue] button.btn:focus::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:focus::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:focus::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:focus::before,
+html body .bvi-body[data-bvi-theme=blue] *.btn:active::before,
+html body .bvi-body[data-bvi-theme=blue] a.btn:active::before,
+html body .bvi-body[data-bvi-theme=blue] button.btn:active::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:active::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:active::before,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:active::before,
+html body .bvi-body[data-bvi-theme=blue] *.btn:hover::after,
+html body .bvi-body[data-bvi-theme=blue] a.btn:hover::after,
+html body .bvi-body[data-bvi-theme=blue] button.btn:hover::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:hover::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:hover::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:hover::after,
+html body .bvi-body[data-bvi-theme=blue] *.btn:focus::after,
+html body .bvi-body[data-bvi-theme=blue] a.btn:focus::after,
+html body .bvi-body[data-bvi-theme=blue] button.btn:focus::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:focus::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:focus::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:focus::after,
+html body .bvi-body[data-bvi-theme=blue] *.btn:active::after,
+html body .bvi-body[data-bvi-theme=blue] a.btn:active::after,
+html body .bvi-body[data-bvi-theme=blue] button.btn:active::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn:active::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn:active::after,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn:active::after {
+  color: #9dd1ff !important;
+}
+
+html body .bvi-body[data-bvi-theme=blue] *.btn *,
+html body .bvi-body[data-bvi-theme=blue] a.btn *,
+html body .bvi-body[data-bvi-theme=blue] button.btn *,
+html body .bvi-body[data-bvi-theme=blue] input[type="button"].btn *,
+html body .bvi-body[data-bvi-theme=blue] input[type="submit"].btn *,
+html body .bvi-body[data-bvi-theme=blue] input[type="reset"].btn * {
+  pointer-events: none;
+}
+
+html body .bvi-body[data-bvi-theme=brown] *.btn,
+html body .bvi-body[data-bvi-theme=brown] a.btn,
+html body .bvi-body[data-bvi-theme=brown] button.btn,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn {
+  background-color: #f7f3d6 !important;
+  box-shadow: 0 0 2px #4d4b43 !important;
+  color: #4d4b43 !important;
+  outline: none !important;
+}
+
+html body .bvi-body[data-bvi-theme=brown] *.btn span,
+html body .bvi-body[data-bvi-theme=brown] a.btn span,
+html body .bvi-body[data-bvi-theme=brown] button.btn span,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn span,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn span,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=brown] *.btn:hover,
+html body .bvi-body[data-bvi-theme=brown] a.btn:hover,
+html body .bvi-body[data-bvi-theme=brown] button.btn:hover,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn:hover,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn:hover,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn:hover,
+html body .bvi-body[data-bvi-theme=brown] *.btn:focus,
+html body .bvi-body[data-bvi-theme=brown] a.btn:focus,
+html body .bvi-body[data-bvi-theme=brown] button.btn:focus,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn:focus,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn:focus,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn:focus,
+html body .bvi-body[data-bvi-theme=brown] *.btn:active,
+html body .bvi-body[data-bvi-theme=brown] a.btn:active,
+html body .bvi-body[data-bvi-theme=brown] button.btn:active,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn:active,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn:active,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn:active {
+  background-color: #4d4b43 !important;
+  color: #f7f3d6 !important;
+  text-decoration: none;
+  box-shadow: 0 0 2px #4d4b43;
+}
+
+html body .bvi-body[data-bvi-theme=brown] *.btn:hover span,
+html body .bvi-body[data-bvi-theme=brown] a.btn:hover span,
+html body .bvi-body[data-bvi-theme=brown] button.btn:hover span,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn:hover span,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn:hover span,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn:hover span,
+html body .bvi-body[data-bvi-theme=brown] *.btn:focus span,
+html body .bvi-body[data-bvi-theme=brown] a.btn:focus span,
+html body .bvi-body[data-bvi-theme=brown] button.btn:focus span,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn:focus span,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn:focus span,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn:focus span,
+html body .bvi-body[data-bvi-theme=brown] *.btn:active span,
+html body .bvi-body[data-bvi-theme=brown] a.btn:active span,
+html body .bvi-body[data-bvi-theme=brown] button.btn:active span,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn:active span,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn:active span,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn:active span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=brown] *.btn *,
+html body .bvi-body[data-bvi-theme=brown] a.btn *,
+html body .bvi-body[data-bvi-theme=brown] button.btn *,
+html body .bvi-body[data-bvi-theme=brown] input[type="button"].btn *,
+html body .bvi-body[data-bvi-theme=brown] input[type="submit"].btn *,
+html body .bvi-body[data-bvi-theme=brown] input[type="reset"].btn * {
+  pointer-events: none;
+}
+
+html body .bvi-body[data-bvi-theme=green] *.btn,
+html body .bvi-body[data-bvi-theme=green] a.btn,
+html body .bvi-body[data-bvi-theme=green] button.btn,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn {
+  background-color: #3b2716 !important;
+  box-shadow: 0 0 2px #a9e44d !important;
+  color: #a9e44d !important;
+  outline: none !important;
+}
+
+html body .bvi-body[data-bvi-theme=green] *.btn span,
+html body .bvi-body[data-bvi-theme=green] a.btn span,
+html body .bvi-body[data-bvi-theme=green] button.btn span,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn span,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn span,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=green] *.btn:hover,
+html body .bvi-body[data-bvi-theme=green] a.btn:hover,
+html body .bvi-body[data-bvi-theme=green] button.btn:hover,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn:hover,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn:hover,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn:hover,
+html body .bvi-body[data-bvi-theme=green] *.btn:focus,
+html body .bvi-body[data-bvi-theme=green] a.btn:focus,
+html body .bvi-body[data-bvi-theme=green] button.btn:focus,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn:focus,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn:focus,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn:focus,
+html body .bvi-body[data-bvi-theme=green] *.btn:active,
+html body .bvi-body[data-bvi-theme=green] a.btn:active,
+html body .bvi-body[data-bvi-theme=green] button.btn:active,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn:active,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn:active,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn:active {
+  background-color: #a9e44d !important;
+  color: #3b2716 !important;
+  text-decoration: none;
+  box-shadow: 0 0 2px #a9e44d;
+}
+
+html body .bvi-body[data-bvi-theme=green] *.btn:hover span,
+html body .bvi-body[data-bvi-theme=green] a.btn:hover span,
+html body .bvi-body[data-bvi-theme=green] button.btn:hover span,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn:hover span,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn:hover span,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn:hover span,
+html body .bvi-body[data-bvi-theme=green] *.btn:focus span,
+html body .bvi-body[data-bvi-theme=green] a.btn:focus span,
+html body .bvi-body[data-bvi-theme=green] button.btn:focus span,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn:focus span,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn:focus span,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn:focus span,
+html body .bvi-body[data-bvi-theme=green] *.btn:active span,
+html body .bvi-body[data-bvi-theme=green] a.btn:active span,
+html body .bvi-body[data-bvi-theme=green] button.btn:active span,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn:active span,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn:active span,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn:active span {
+  background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme=green] *.btn *,
+html body .bvi-body[data-bvi-theme=green] a.btn *,
+html body .bvi-body[data-bvi-theme=green] button.btn *,
+html body .bvi-body[data-bvi-theme=green] input[type="button"].btn *,
+html body .bvi-body[data-bvi-theme=green] input[type="submit"].btn *,
+html body .bvi-body[data-bvi-theme=green] input[type="reset"].btn * {
   pointer-events: none;
 }
 .slick-slider.home {
@@ -9211,6 +9650,10 @@ input[type="reset"].btn * {
   padding-top: 15px;
 }
 
+.footer-sendbtn {
+  padding-bottom: 2px;
+}
+
 .footer-sendbtn .btn.callme-btn {
   box-shadow: 0 0 3px #ffffff;
   font-style: normal;
@@ -9254,6 +9697,10 @@ input[type="reset"].btn * {
   margin-bottom: 0;
   font-size: 0.6em;
   font-family: "Consolas";
+}
+
+.footer-icons {
+  padding-bottom: 2px;
 }
 
 .footer-icons-menu {
@@ -9512,6 +9959,10 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
   right: 0;
 }
 
+.form-control {
+  height: auto;
+}
+
 .form-title {
   margin-top: 0;
 }
@@ -9537,7 +9988,7 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
   width: 100%;
   padding-left: 22px;
   padding-right: 22px;
-  padding-top: 0.6em;
+  padding-top: 1.6em;
   padding-bottom: 0.6em;
   line-height: 1.5em;
   margin-top: 0.3em;
@@ -9557,11 +10008,10 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
   line-height: 1;
   top: 1.2em;
   left: 15px;
-  pointer-events: none;
   padding: 0 7px;
   color: #888;
   transition: all 0.3s ease;
-  font-size: 0.8em;
+  font-size: 1.12em;
   -webkit-user-select: none!important;
   -ms-user-select: none!important;
   user-select: none!important;
@@ -9569,6 +10019,7 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
   max-width: calc(100% - 30px);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  pointer-events: none;
 }
 
 .form-group-item-control:-ms-input-placeholder {
@@ -9591,9 +10042,12 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
 
 .form-group-item-control:not(:placeholder-shown) ~ label,
 .form-group-item-control:focus ~ label {
-  top: -0.4em;
-  background-color: #fff;
-  color: #333;
+  font-size: ;
+  top: 0.9em;
+  background-color: transparent;
+  color: #888;
+  font-size: 0.8em;
+  font-weight: 700;
 }
 
 .form-group-item-control[type="checkbox"] {
@@ -9620,6 +10074,26 @@ html body .footer-icons .icons ul.footer-icons-menu li > a:active {
 .form-group-item textarea.form-control {
   resize: vertical;
   min-height: 5em !important;
+}
+
+html body .bvi-body[data-bvi-theme=white] .form-group-item-control {
+  box-shadow: 0 0 1px 1px black !important;
+}
+
+html body .bvi-body[data-bvi-theme=black] .form-group-item-control {
+  box-shadow: 0 0 1px 1px white !important;
+}
+
+html body .bvi-body[data-bvi-theme=blue] .form-group-item-control {
+  box-shadow: 0 0 1px 1px #063462 !important;
+}
+
+html body .bvi-body[data-bvi-theme=brown] .form-group-item-control {
+  box-shadow: 0 0 1px 1px #4d4b43 !important;
+}
+
+html body .bvi-body[data-bvi-theme=green] .form-group-item-control {
+  box-shadow: 0 0 1px 1px #a9e44d !important;
 }
 
 .videos {
@@ -9685,6 +10159,11 @@ body .bvi-body[data-bvi-images=false] .videos--list .bvi-caption-alt {
 
 .error_list {
   color: #ff0000;
+  margin-bottom: 2em;
+}
+
+.error_list li {
+  margin-bottom: unset;
 }
 .hyphenation,
 .hyphenation * {

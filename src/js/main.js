@@ -250,6 +250,7 @@
 					a[0].click();
 					$("body").removeClass('screen');
 					setTimeout(function(){
+						URL.revokeObjectURL(a[0].href);
 						a.remove();
 					}, 500);
 				}

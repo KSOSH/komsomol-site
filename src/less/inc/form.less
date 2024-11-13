@@ -11,6 +11,9 @@
 			}
 		}
 	}
+	&-control {
+		height: auto;
+	}
 	&-title {
 		margin-top: 0;
 	}
@@ -31,7 +34,7 @@
 				width: 100%;
 				padding-left: 22px;
 				padding-right: 22px;
-				padding-top: 0.6em;
+				padding-top: 1.6em;
 				padding-bottom: 0.6em;
 				line-height: 1.5em;
 				margin-top: 0.3em;
@@ -51,12 +54,13 @@
 					padding: 0 7px;
 					color: #888;
 					transition: all .3s ease;
-					font-size: .8em;
+					font-size: 1.12em;
 					user-select: none!important;
 					white-space: nowrap!important;
 					max-width: ~"calc(100% - 30px)";
 					border-top-left-radius: 3px;
 					border-top-right-radius: 3px;
+					pointer-events: none;
 				}
 				&::placeholder {
 					color: transparent!important;
@@ -66,9 +70,12 @@
 				&:focus {
 					box-shadow: 0 0 3px 0px #333;
 					~label {
-						top: -0.4em;
-						background-color: #fff;
-						color: #333;
+						font-size: ;
+						top: 0.9em;
+						background-color: transparent;
+						color: #888;
+						font-size: 0.8em;
+						font-weight: 700;
 					}
 				}
 				&[type="checkbox"] {
@@ -95,6 +102,68 @@
 				&.form-control {
 					resize: vertical;
 					min-height: 5em !important;
+				}
+			}
+		}
+	}
+}
+
+html {
+	body {
+		.bvi-body {
+			&[data-bvi-theme=white] {
+				.form {
+					&-group {
+						&-item {
+							&-control {
+								box-shadow: 0 0 1px 1px black !important;
+							}
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=black] {
+				.form {
+					&-group {
+						&-item {
+							&-control {
+								box-shadow: 0 0 1px 1px white !important;
+							}
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=blue] {
+				.form {
+					&-group {
+						&-item {
+							&-control {
+								box-shadow: 0 0 1px 1px #063462 !important;
+							}
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=brown] {
+				.form {
+					&-group {
+						&-item {
+							&-control {
+								box-shadow: 0 0 1px 1px #4d4b43 !important;
+							}
+						}
+					}
+				}
+			}
+			&[data-bvi-theme=green] {
+				.form {
+					&-group {
+						&-item {
+							&-control {
+								box-shadow: 0 0 1px 1px #a9e44d !important;
+							}
+						}
+					}
 				}
 			}
 		}

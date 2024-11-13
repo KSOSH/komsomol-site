@@ -28,17 +28,18 @@
 		padding-top: @padding;
 	}
 	&-sendbtn {
-		@media(max-width: 450px) {
-			order: 2;
-			width: 100%;
-			margin-top: @padding;
-		}
+		padding-bottom: 2px;
 		.btn {
 			&.callme-btn {
 				box-shadow: 0 0 3px @white;
 				font-style: normal;
 				font-family: 'Open Sans', sans-serif;
 			}
+		}
+		@media(max-width: 450px) {
+			order: 2;
+			width: 100%;
+			margin-top: @padding;
 		}
 	}
 	&-wrapper {
@@ -83,10 +84,7 @@
 		font-family: "Consolas";
 	}
 	&-icons {
-		@media(max-width: 450px) {
-			order: 1;
-			width: 100%;
-		}
+		padding-bottom: 2px;
 		&-menu {
 			display: block;
 			margin: 0;
@@ -206,6 +204,10 @@
 					}
 				}
 			}
+		}
+		@media(max-width: 450px) {
+			order: 1;
+			width: 100%;
 		}
 	}
 }
