@@ -35,7 +35,7 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 					setcookie($name, '', $time, '/');
 				endif;
 			endforeach;
-
+			/*
 			$kcFinder = [
 				'displaySettings',
 				'order',
@@ -68,7 +68,6 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 					'.komsomol.minobr63.ru'// domain
 				);
 			endforeach;
-			/*
 			foreach($yaMin as $item):
 				setcookie(
 					$item,                 // name
@@ -88,7 +87,6 @@ if(!function_exists('removeEmptyFoldersSetCookie')):
 				);
 			endforeach;
 			*/
-
 		endif;
 	}
 endif;
