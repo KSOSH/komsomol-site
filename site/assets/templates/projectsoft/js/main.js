@@ -1026,9 +1026,7 @@
 					}
 					a.setAttribute('href', link);
 					let p = document.createElement('p');
-					//p.append(a);
 					person.prepend(a);
-					//person.parentNode.insertBefore(p, person.nextSibling);
 				}
 			}
 		}catch(err){
@@ -1579,10 +1577,12 @@
 			 * Если компьютер не в школе
 			 * Показываем сообщение
 			**/
+			/**
 			if(HTTP_CLIENT.int != 1){
 				$('.notification-form').removeClass('hidden');
 				var notIni = setTimeout(setCookieNotify, 10000);
 			}
+			**/
 		}
 	})();
 
