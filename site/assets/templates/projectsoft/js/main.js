@@ -1002,6 +1002,10 @@
 	};
 })(jQuery);
 (function($){
+	/**
+	 * Set Cookie notify (days)
+	 **/
+	const COOKIE_DATE = 7;
 	!(function(){
 		let ref = document.referrer;
 		try {
@@ -1012,8 +1016,7 @@
 				let person = document.querySelector('.news_person');
 				if(person){
 					a = document.createElement('a');
-					a.innerHTML = 'Вернуться';//'<span>В</span><span>е</span><span>р</span><span>н</span><span>у</span><span>т</span><span>ь</span><span>с</span><span>я</span>';
-					//a.setAttribute('data-before', 'Вернуться');
+					a.innerHTML = 'Вернуться';
 					a.classList.add('btn');
 					a.classList.add('btn-any')
 					if(url.searchParams.has('page')){
@@ -1037,10 +1040,6 @@
 	/**
 	 * http://gbou.school/viewer/web/viewer.html?file=assets/files/0007/0608/prn1-od-ot-09.01.2023_.pdf
 	 **/
-	/**
-	 * Set Cookie notify (days)
-	 **/
-	const COOKIE_DATE = 7;
 	/**
 	 * Default options Fancybox
 	**/
@@ -1551,10 +1550,30 @@
 		/**
 		 * new_year prazdnik                01
 		 * defender_day prazdnik            23
+		 
+			https://media.tenor.com/xiJZlZtHNrUAAAAM/field-of.gif
+			assets/images/background/0010-bg.jpg
 		 *
 		 **/
+		// Новый год 15.12 - 15.01
 		if((day > 15 && month == 12) || (day < 15 && month == 1)) {
 			$("body").addClass('new_year prazdnik');
+		}
+		// Двадцать третье февраля 18.02 - 27.01
+		if((day > 15 && month == 2) || (day < 27 && month == 2)) {
+			$("body").addClass('feast_23');
+		}
+		// Восьмое марта 4.03 - 11.03
+		if((day > 4 && month == 3) || (day < 11 && month == 3)) {
+			$("body").addClass('feast_08');
+		}
+		// День космонавтики 08.04 - 16.04
+		if((day > 8 && month == 4) || (day < 16 && month == 4)) {
+			$("body").addClass('feast_12');
+		}
+		// Девятое мая 01.05 - 14.05
+		if((day > 1 && month == 5) || (day < 14 && month == 5)) {
+			$("body").addClass('feast_09');
 		}
 	})();
 	/**
@@ -1576,8 +1595,6 @@
 			/**
 			 * Если компьютер не в школе
 			 * Показываем сообщение
-			https://media.tenor.com/xiJZlZtHNrUAAAAM/field-of.gif
-			assets/images/background/0010-bg.jpg
 			**/
 			$('.notification-form').removeClass('hidden');
 			var notIni = setTimeout(setCookieNotify, 10000);
