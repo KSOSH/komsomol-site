@@ -573,13 +573,11 @@
 			/**
 			 * Если компьютер не в школе
 			 * Показываем сообщение
+			https://media.tenor.com/xiJZlZtHNrUAAAAM/field-of.gif
+			assets/images/background/0010-bg.jpg
 			**/
-			/**
-			if(HTTP_CLIENT.int != 1){
-				$('.notification-form').removeClass('hidden');
-				var notIni = setTimeout(setCookieNotify, 10000);
-			}
-			**/
+			$('.notification-form').removeClass('hidden');
+			var notIni = setTimeout(setCookieNotify, 10000);
 		}
 	})();
 

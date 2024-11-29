@@ -1,4 +1,4 @@
-name: Workflow
+name: ГБОУ СОШ пос. Комсомольский
 on:
   push:
     branches: [ "main" ]
@@ -9,11 +9,12 @@ on:
   workflow_dispatch:
     inputs:
       Name:
-        description: Workflow
+        description: ГБОУ СОШ пос. Комсомольский
         required: true
-        default: 'Workflow'
+        default: 'ГБОУ СОШ пос. Комсомольский'
 jobs:
-  deploy:
+  job:
+    name: ГБОУ СОШ пос. Комсомольский
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -21,7 +22,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Workflow
+      - name: ГБОУ СОШ пос. Комсомольский
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -34,7 +35,7 @@ jobs:
             **/viewer/**
             **/assets/templates/projectsoft/images/**
             **/assets/templates/projectsoft/fonts/**
-      - name: Remove Status
+      - name: Status ГБОУ СОШ пос. Комсомольский
         uses: StephanThierry/ftp-delete-action@v2.1
         with:
           host: ${{ secrets.FTP_SERVER }}
