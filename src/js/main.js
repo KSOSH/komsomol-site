@@ -558,19 +558,19 @@
 		}
 		// Двадцать третье февраля 18.02 - 27.01
 		if((day > 15 && month == 2) || (day < 27 && month == 2)) {
-			$("body").addClass('feast_23');
+			$("body").addClass('feast_23 prazdnik');
 		}
 		// Восьмое марта 4.03 - 11.03
 		if((day > 4 && month == 3) || (day < 11 && month == 3)) {
-			$("body").addClass('feast_08');
+			$("body").addClass('feast_08 prazdnik');
 		}
 		// День космонавтики 08.04 - 16.04
 		if((day > 8 && month == 4) || (day < 16 && month == 4)) {
-			$("body").addClass('feast_12');
+			$("body").addClass('feast_12 prazdnik');
 		}
 		// Девятое мая 01.05 - 14.05
 		if((day > 1 && month == 5) || (day < 14 && month == 5)) {
-			$("body").addClass('feast_09');
+			$("body").addClass('feast_09 prazdnik');
 		}
 	})();
 	/**
