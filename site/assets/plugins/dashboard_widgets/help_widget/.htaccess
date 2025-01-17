@@ -1,0 +1,24 @@
+AddDefaultCharset UTF-8
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+</IfModule>
+
+# Запрет вывода директорий
+Options -Indexes
+
+# Установка индексного файла директорий.
+DirectoryIndex index.php
+
+# Запрещаем доступ к html файлам
+<Files *.html>
+	Order Deny,Allow
+	Deny from all
+</Files>
+
+# Запрещаем доступ к php файлам
+<Files *.php>
+	Order Deny,Allow
+	Deny from all
+</Files>
