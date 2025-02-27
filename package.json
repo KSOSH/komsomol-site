@@ -4,8 +4,7 @@
 	"description": "Сайт ГБОУ СОШ пос. Комсомольский",
 	"main": "Gruntfile.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"inst": "bower install && npm install --legacy-peer-deps",
+		"inst": "npm i && bower install",
 		"build": "grunt -v"
 	},
 	"repository": {
