@@ -1559,6 +1559,7 @@
 		if((day > 15 && month == 12) || (day < 15 && month == 1)) {
 			$("body").addClass('new_year prazdnik');
 		}
+		/*
 		// Двадцать третье февраля 18.02 - 27.01
 		if((day > 15 && month == 2) || (day < 27 && month == 2)) {
 			$("body").addClass('feast_23 prazdnik');
@@ -1575,6 +1576,7 @@
 		if((day > 1 && month == 5) || (day < 14 && month == 5)) {
 			$("body").addClass('feast_09 prazdnik');
 		}
+		*/
 	})();
 	/**
 	 * Cookies
