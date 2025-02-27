@@ -1,9 +1,5 @@
 name: ГБОУ СОШ пос. Комсомольский
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
   schedule:
     - cron: "0 1 * * 6"
   workflow_dispatch:
