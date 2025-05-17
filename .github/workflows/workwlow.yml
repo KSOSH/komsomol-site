@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: ГБОУ СОШ пос. Комсомольский
+      - name: Update ГБОУ СОШ пос. Комсомольский
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -31,6 +31,9 @@ jobs:
             **/viewer/**
             **/assets/templates/projectsoft/images/**
             **/assets/templates/projectsoft/fonts/**
+            **/food/**
+            **/food-individual/**
+            **/icons-full/**
       - name: Status ГБОУ СОШ пос. Комсомольский
         uses: StephanThierry/ftp-delete-action@v2.1
         with:
