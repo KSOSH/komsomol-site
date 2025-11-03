@@ -10,32 +10,18 @@
 	[
 		{
 			"name": "Полная сборка",
-			"working_dir": "$project_path",
-			"shell_cmd": "grunt -v",
+			"working_dir": "${project_path}",
+			"cmd": ["start", "/wait", "grunt", "-v", "default"],
+			"shell": true,
 			"file_patterns": [
 				"*.*"
 			]
 		},
 		{
 			"name": "Быстрая сборка",
-			"working_dir": "$project_path",
-			"shell_cmd": "grunt -v speed",
-			"file_patterns": [
-				"*.*"
-			]
-		},
-		{
-			"name": "Сборка XLSX Viewer",
-			"working_dir": "$project_path",
-			"shell_cmd": "pug -O $file_path/options.json $file_path && lessc -x $file_path/main.less $file_path/main.min.css",
-			"file_patterns": [
-				"*.*"
-			]
-		},
-		{
-			"name": "Сборка XLSX Viewer LESS",
-			"working_dir": "$project_path",
-			"shell_cmd": "lessc -x $file $file_path/$file_base_name.min.css",
+			"working_dir": "${project_path}",
+			"cmd": ["start", "/wait", "grunt", "-v", "speed"],
+			"shell": true,
 			"file_patterns": [
 				"*.*"
 			]
