@@ -1006,40 +1006,6 @@
 	 * Set Cookie notify (days)
 	 **/
 	const COOKIE_DATE = 7;
-	!(function(){
-		let ref = document.referrer;
-		try {
-			let url = new window.URL(ref),
-				link,
-				a;
-			if(url.origin == document.location.origin){
-				let person = document.querySelector('.news_person');
-				if(person){
-					a = document.createElement('a');
-					a.innerHTML = 'Вернуться';
-					a.classList.add('btn');
-					a.classList.add('btn-any')
-					if(url.searchParams.has('page')){
-						let page = parseInt(url.searchParams.get('page'));;
-						// Вернуться на page
-						link = url.origin + url.pathname + '?page=' + page;;
-					}else{
-						// Вернуться в новости
-						link = url.origin + url.pathname;
-					}
-					a.setAttribute('href', link);
-					let p = document.createElement('p');
-					person.prepend(a);
-				}
-			}
-		}catch(err){
-			console.log(ref);
-		}
-		
-	}());
-	/**
-	 * http://gbou.school/viewer/web/viewer.html?file=assets/files/0007/0608/prn1-od-ot-09.01.2023_.pdf
-	 **/
 	/**
 	 * Default options Fancybox
 	**/
@@ -1073,22 +1039,7 @@
 		// Удалить историю просмотра pdf файлов
 		localStorage.removeItem("pdfjs.history");
 	};
-	/**
-	 ** Is PDF file open browser supports
-	**/
-	function isPdf(){
-		var is_pdf = false,
-			plugins = Array.from(window.navigator.plugins || {}),
-			map = plugins.map(function(a){
-				var map = Array.from(a);
-				if (map[0].suffixes=='pdf' && !is_pdf){
-					is_pdf = true;
-				}
-				return map;
-			});
-		return is_pdf;
-	}
-	const IS_PDF = isPdf();
+
 	$('.school .school-logo img').wrap('<a href="' + window.location.protocol + "//" + window.location.hostname + '/"></a>');
 	/**
 	** NavBar
@@ -1154,14 +1105,6 @@
 				}
 			}
 		]
-	});
-	/**
-	 ** IFrame
-	**/
-	$(".iframe-embed").each(function(){
-		//https://docs.google.com/viewer?url=https%3A%2F%2Fkomsomol.minobr63.ru%2Fassets%2Ffiles%2F0001%2F0045%2F0049%2F0958%2Fprezentaciya.pptx&embedded=true
-		var src = encodeURIComponent($(this).data('src'));
-		this.src = 'https://docs.google.com/viewer?embedded=true&url=' + src;
 	});
 
 	// ССылки поделиться в футтере
@@ -1282,85 +1225,83 @@
 			ext = arr.at(-1).toLowerCase(),
 			options = {};
 		if(reg.test(href)){
-			$(this).data('google', go);
-			$(this).data('options', options);
-			switch (ext){
-				case "pdf":
-					href = href.replace(base, '');
-					go = window.location.origin + '/viewer/pdf_viewer/?file=' + href;
-					options = {
-						src: go,
-						opts : {
-							afterShow : function( instance, current ) {
-								$(".fancybox-content").css({
-									height: '100% !important',
-									overflow: 'hidden'
-								}).addClass('pdf_viewer');
-							},
-							afterLoad : function( instance, current ) {
-								$(".fancybox-content").css({
-									height: '100% !important',
-									overflow: 'hidden'
-								}).addClass('pdf_viewer');
-							},
-							afterClose: function() {
-								Cookies.remove('pdfjs.history', { path: '' });
-								window.localStorage.removeItem('pdfjs.history');
+			if(!this.hasAttribute('data-fancybox')){
+				href = href.replace(base, '');
+				go =  `${window.location.origin}/viewer/${ext}_viewer/?file=${href}`;
+				switch (ext){
+					case "pdf":
+						options = {
+							src: go,
+							opts : {
+								afterShow : function( instance, current ) {
+									$(".fancybox-content").css({
+										height: '100% !important',
+										overflow: 'hidden'
+									}).addClass('pdf_viewer');
+								},
+								afterLoad : function( instance, current ) {
+									$(".fancybox-content").css({
+										height: '100% !important',
+										overflow: 'hidden'
+									}).addClass('pdf_viewer');
+								},
+								afterClose: function() {
+									Cookies.remove('pdfjs.history', { path: '' });
+									window.localStorage.removeItem('pdfjs.history');
+								}
 							}
-						}
-					};
-					e.preventDefault();
-					$.fancybox.open(options);
-					return !1;
-					break;
-				case "xlsx":
-					go = window.location.origin + '/viewer/xlsx_viewer/?file=' + test;
-					options = {
-						src: go,
-						type: 'iframe',
-						opts : {
-							afterShow : function( instance, current ) {
-								$(".fancybox-content").css({
-									height: '100% !important',
-									overflow: 'hidden'
-								}).addClass('xlsx_viewer');
-							},
-							afterLoad : function( instance, current ) {
-								$(".fancybox-content").css({
-									height: '100% !important',
-									overflow: 'hidden'
-								}).addClass('xlsx_viewer');
-							},
-						}
-					};
-					e.preventDefault();
-					$.fancybox.open(options);
-					return !1;
-					break;
-				case "docx":
-					go = window.location.origin + '/viewer/docx_viewer/?file=' + test;
-					options = {
-						src: go,
-						type: 'iframe',
-						opts : {
-							afterShow : function( instance, current ) {
-								$(".fancybox-content").css({
-									height: '100% !important',
-									overflow: 'hidden'
-								}).addClass('docx_viewer');
-							},
-							afterLoad : function( instance, current ) {
-								$(".fancybox-content").css({
-									height: '100% !important',
-									overflow: 'hidden'
-								}).addClass('docx_viewer');
-							},
-						}
-					};
-					e.preventDefault();
-					$.fancybox.open(options);
-					return !1;
-					break;
+						};
+						e.preventDefault();
+						$.fancybox.open(options);
+						return !1;
+						break;
+					case "xlsx":
+						options = {
+							src: go,
+							type: 'iframe',
+							opts : {
+								afterShow : function( instance, current ) {
+									$(".fancybox-content").css({
+										height: '100% !important',
+										overflow: 'hidden'
+									}).addClass('xlsx_viewer');
+								},
+								afterLoad : function( instance, current ) {
+									$(".fancybox-content").css({
+										height: '100% !important',
+										overflow: 'hidden'
+									}).addClass('xlsx_viewer');
+								},
+							}
+						};
+						e.preventDefault();
+						$.fancybox.open(options);
+						return !1;
+						break;
+					case "docx":
+						options = {
+							src: go,
+							type: 'iframe',
+							opts : {
+								afterShow : function( instance, current ) {
+									$(".fancybox-content").css({
+										height: '100% !important',
+										overflow: 'hidden'
+									}).addClass('docx_viewer');
+								},
+								afterLoad : function( instance, current ) {
+									$(".fancybox-content").css({
+										height: '100% !important',
+										overflow: 'hidden'
+									}).addClass('docx_viewer');
+								},
+							}
+						};
+						e.preventDefault();
+						$.fancybox.open(options);
+						return !1;
+						break;
+				}
 			}
 		}
 	})

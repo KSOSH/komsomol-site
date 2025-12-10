@@ -43,12 +43,15 @@ head
 	|<@IF:[*id:is(2)*]>
 	link(rel="canonical" href="[!getFullUrl? &arr=`` &id=`[*id*]`!]")
 	|<@ENDIF>
+	meta(name="og:type" content="website")
+	meta(name="og:url" content="[(site_url)][~[*id*]~]")
 	meta(name="og:title" content="[*pagetitle:notags:strip*]")
 	meta(name="og:description" content="[*desc:notags*]")
+	meta(name="twitter:card" content="summary_large_image")
+	script(src="https://yastatic.net/s3/frontend/forms/_/embed.js")
 	//-
 		meta(name="twitter:title" content="[*pagetitle:notags:strip*]")
 		meta(name="twitter:description" content="[*desc:notags*]")
-		meta(name="twitter:card" content="summary_large_image")
 		meta(name="twitter:site:id" content="summary_large_image")
 		meta(name="twitter:site" content="[(twitter_creator)]")
 		meta(name="twitter:creator" content="[(twitter_creator)]")

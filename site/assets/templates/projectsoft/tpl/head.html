@@ -26,8 +26,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="[(site_url)]ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<link type="text/css" rel="stylesheet" href="assets/templates/projectsoft/css/main.min.css?ccbf28a0bbc504c59fb13a67d1429232">
-	<link type="text/css" rel="stylesheet" href="css.css?ccbf28a0bbc504c59fb13a67d1429232">
+	<link type="text/css" rel="stylesheet" href="assets/templates/projectsoft/css/main.min.css?96071979475a21fec0b462cc54754729">
+	<link type="text/css" rel="stylesheet" href="css.css?96071979475a21fec0b462cc54754729">
 	<meta name="apple-mobile-web-app-title" content="[(site_name)]">
 	<meta name="application-name" content="[(site_name)]">
 	<meta name="title" content="[*pagetitle:notags:strip*]">
@@ -36,8 +36,12 @@
 	<meta name="author" content="[(site_name)]">
 	<link rel="alternate" type="application/rss+xml" title="RSS-лента ГБОУ СОШ пос. Комсомольский" href="[!getFullUrl? &amp;arr=`` &amp;id=`32`!]"><@IF:[*id:is(2)*]>
 	<link rel="canonical" href="[!getFullUrl? &amp;arr=`` &amp;id=`[*id*]`!]"><@ENDIF>
+	<meta name="og:type" content="website">
+	<meta name="og:url" content="[(site_url)][~[*id*]~]">
 	<meta name="og:title" content="[*pagetitle:notags:strip*]">
-	<meta name="og:description" content="[*desc:notags*]">[[ogImage]]
+	<meta name="og:description" content="[*desc:notags*]">
+	<meta name="twitter:card" content="summary_large_image">
+	<script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script>[[ogImage]]
 	<style>
 		body .bodywrapp {
 			background-image: url([(background_image)]);
