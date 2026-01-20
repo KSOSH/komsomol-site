@@ -3,7 +3,7 @@
 	return [
 		'title' => 'Page Gallery',
 
-		'show_in_templates' => [ 6,14,25,26,24,11,20,15,23,7,3,22,16,13,12,17,18,5,4,19 ],
+		'show_in_templates' => [ 6,14,25,26,24,11,20,15,23,7,3,22,16,13,12,17,18,5,4,19,27 ],
 
 		'icon' => 'fa fa-picture-o',
 
@@ -17,7 +17,7 @@
 
 		'templates' => [
 			'owner' => '
-				<div class="gallery clearfix">
+				<div class="gallery">
 					[!ifnotempty? &input=`[+text+]` &replace=`<h3 class="text-center">%replace%</h3>`!]
 					<ul class="gallery--list">
 						[+documents+]

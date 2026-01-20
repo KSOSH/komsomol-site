@@ -3,7 +3,7 @@
 	return [
 		'title' => 'Page Richtext',
 
-		'show_in_templates' => [ 6,14,25,26,24,11,20,15,23,7,3,22,16,13,12,17,18,5,4,19 ],
+		'show_in_templates' => [ 6,14,25,26,24,11,20,15,23,7,3,22,16,13,12,17,18,5,4,19,27 ],
 
 		'icon' => 'fa fa-pencil-square-o',
 
@@ -17,7 +17,7 @@
 
 		'templates' => [
 			'owner' => '
-				<div class="richtext clearfix">
+				<div class="richtext">
 					[!ifnotempty? &input=`[+text+]` &replace=`<h3 class="text-center">%replace%</h3>`!]
 				<!-- [+text:ifnotempty=`<h3 class="text-center">`+][+text+][+text:ifnotempty=`</h3>`+] -->
 					[+documents+]
